@@ -1,5 +1,7 @@
 # Weave EPUB Reader Premium Terms Overview
 
+> Fork notice: this file describes the upstream project's commercial model. The `zoutianxin1` GPL fork enables all reader capabilities implemented in the published source without activation. It does not grant access to separate commercial services or official support.
+
 本文件用于说明 Weave EPUB Reader 的“基础免费 + 高级付费”模式边界，帮助用户理解高级能力、激活机制与开源代码许可之间的关系。
 
 ## 1. 模式概述

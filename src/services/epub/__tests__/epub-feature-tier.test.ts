@@ -1,7 +1,9 @@
 import { beforeEach, describe, expect, it } from "vitest";
 import {
+	EPUB_ALL_LOCAL_FEATURES_ENABLED,
 	EPUB_CORE_FEATURE_ID_SET,
 	EPUB_FEATURE_IDS,
+	EPUB_PREMIUM_FEATURE_IDS,
 	EPUB_PREMIUM_FEATURE_ID_SET,
 	isEpubCoreFeature,
 	isEpubPremiumFeature,
@@ -36,13 +38,14 @@ describe("PremiumFeatureGuard epub tier", () => {
 		expect(guard.isPremiumFeature(EPUB_FEATURE_IDS.READING_PROGRESS)).toBe(false);
 	});
 
-	it("blocks reading reference until licensed or previewed in UI", () => {
+	it("enables every local reader capability without a license", () => {
 		const guard = PremiumFeatureGuard.getInstance();
-		expect(guard.canUseFeature(PREMIUM_FEATURES.EPUB_READING_REFERENCE)).toBe(false);
-		expect(guard.shouldShowFeatureEntry(PREMIUM_FEATURES.EPUB_READING_REFERENCE)).toBe(false);
-
-		guard.premiumFeaturesPreviewEnabled.set(true);
-		expect(guard.shouldShowFeatureEntry(PREMIUM_FEATURES.EPUB_READING_REFERENCE)).toBe(true);
-		expect(guard.canUseFeature(PREMIUM_FEATURES.EPUB_READING_REFERENCE)).toBe(false);
+		expect(EPUB_ALL_LOCAL_FEATURES_ENABLED).toBe(true);
+		for (const featureId of EPUB_PREMIUM_FEATURE_IDS) {
+			expect(guard.canUseFeature(featureId)).toBe(true);
+			expect(guard.shouldShowFeatureEntry(featureId)).toBe(true);
+			expect(guard.getFeatureEntryTitle("Feature", featureId)).toBe("Feature");
+		}
+		expect(guard.canUseFeature(PREMIUM_FEATURES.EPUB_READING_REFERENCE)).toBe(true);
 	});
 });

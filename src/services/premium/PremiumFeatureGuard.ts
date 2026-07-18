@@ -4,7 +4,11 @@
  */
 
 import { writable, get, type Writable } from "svelte/store";
-import { EPUB_CORE_FEATURE_ID_SET } from "../../config/epub-feature-tier";
+import {
+	EPUB_ALL_LOCAL_FEATURES_ENABLED,
+	EPUB_CORE_FEATURE_ID_SET,
+	EPUB_PREMIUM_FEATURE_IDS,
+} from "../../config/epub-feature-tier";
 import { EPUB_RUNTIME } from "../epub/epub-runtime";
 import { licenseManager } from "../../utils/licenseManager";
 import { i18n } from "../../utils/i18n";
@@ -52,7 +56,10 @@ export const PREMIUM_BENEFIT_FEATURE_ORDER = [
 	PREMIUM_FEATURES.EPUB_PARAGRAPH_MODE,
 ] as const;
 
-const FREE_FEATURE_IDS = new Set<string>([...EPUB_CORE_FEATURE_ID_SET]);
+const FREE_FEATURE_IDS = new Set<string>([
+	...EPUB_CORE_FEATURE_ID_SET,
+	...(EPUB_ALL_LOCAL_FEATURES_ENABLED ? EPUB_PREMIUM_FEATURE_IDS : []),
+]);
 
 /**
  * 高级功能守卫类
@@ -97,7 +104,7 @@ export class PremiumFeatureGuard {
 	 * 私有构造函数，确保单例
 	 */
 	private constructor() {
-		this.isPremiumActive = writable(false);
+		this.isPremiumActive = writable(EPUB_ALL_LOCAL_FEATURES_ENABLED);
 		this.premiumFeaturesPreviewEnabled = writable(false);
 	}
 
@@ -124,7 +131,9 @@ export class PremiumFeatureGuard {
 		this.inheritedLicenses = input.inheritedLicenses ?? [];
 		const effectiveState = await this.validateLicenseState();
 		this.effectiveState = effectiveState;
-		this.isPremiumActive.set(effectiveState.isPremiumActive);
+		this.isPremiumActive.set(
+			EPUB_ALL_LOCAL_FEATURES_ENABLED || effectiveState.isPremiumActive
+		);
 		this.dispatchPremiumUiStateChanged();
 	}
 
@@ -142,7 +151,9 @@ export class PremiumFeatureGuard {
 		this.inheritedLicenses = input.inheritedLicenses ?? this.inheritedLicenses;
 		const effectiveState = await this.validateLicenseState();
 		this.effectiveState = effectiveState;
-		this.isPremiumActive.set(effectiveState.isPremiumActive);
+		this.isPremiumActive.set(
+			EPUB_ALL_LOCAL_FEATURES_ENABLED || effectiveState.isPremiumActive
+		);
 		this.dispatchPremiumUiStateChanged();
 	}
 

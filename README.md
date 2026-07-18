@@ -2,6 +2,9 @@
 
 [中文](#中文文档) | [繁體中文](./README.zh-TW.md) | [English](#english-documentation) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Русский](./README.ru.md)
 
+> [!NOTE]
+> This is an unofficial GPL fork maintained at `zoutianxin1/obsidian-weave-reader`. All reader capabilities present in the public source are enabled locally without an activation code. Books must be stored in the Obsidian vault and opened with Weave EPUB Reader. The same plugin build supports Windows and iPadOS.
+
 <div align="center">
 
 
@@ -145,40 +148,15 @@ flowchart LR
 
 更完整的操作说明见上文 [摘录笔记工作流](#摘录笔记工作流) 与 [核心能力](#核心能力)。
 
-## 基础体验与高级支持
+## 此 fork 的功能
 
-| 能力 | 基础体验 | 高级支持 |
-|------|:--------:|:--------:|
-| **全平台**阅读（桌面端与移动端） | ✅ | ✅ |
-| 阅读 **EPUB**，目录跳转、翻页/滚动、版式与主题 | ✅ | ✅ |
-| 阅读 **TXT** 纯文本书籍 | ✅ | ✅ |
-| 阅读 **MOBI / AZW3 / FB2 / FBZ / CBZ** | 🔒 | ✅ |
-| **五种高亮色**、想法、摘录与**正文回显** | ✅ | ✅ |
-| **下划线 / 删除线 / 波浪线**等样式标注 | 🔒 | ✅ |
-| **双向溯源**（锚点跳转、笔记 ↔ 原书定位显示） | 🔒 | ✅ |
-| **段落阅读模式**、参考阅读点 | 🔒 | ✅ |
-| **阅读进度**持久化、书架进度、最后阅读点、剩余阅读时间 | ✅ | ✅ |
-| **当前页书签**、书签目录与书签列表跳转 | ✅ | ✅ |
-| **Canvas** 绑定与自动写入节点 | 🔒 | ✅ |
-| 脚注浮窗预览、导出当前章节为 Markdown | 🔒 | ✅ |
-
-> 图例：✅ 已包含 · 🔒 需启用高级支持
-
-- **启用高级支持**：在阅读器设置中使用 EPUB 独立激活码；若已安装并激活 **Weave 主插件**，可继承授权而无需重复输入。
-- **制卡 / 增量阅读 / AI**：不单独占用阅读器高级支持许可，但需安装 Weave；AI 另需自行配置 API Key。
-
-完整对照见上文 [基础体验与高级支持](#基础体验与高级支持)；激活在阅读器设置中完成，条款见 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)。
+此 fork 无需激活码。EPUB、TXT、MOBI、AZW3、FB2、FBZ、CBZ、样式标注、双向溯源、段落阅读、Canvas 摘录、脚注预览和章节导出均可直接使用。制卡、增量阅读和 AI 仍需安装 Weave；AI 还需要你自己的 API Key。
 
 ## 安装
 
-### 方式一：社区插件（推荐）
+### 安装此 fork
 
-1. 打开 **设置 → 社区插件 → 浏览**
-2. 搜索 **Weave EPUB Reader**，安装并启用
-
-### 方式二：手动安装
-
-1. 从 [GitHub Releases](https://github.com/zhuzhige123/obsidian-weave-reader/releases) 下载与 `manifest.json` 版本号一致的发布包，获取：
+1. 从此 fork 的 [GitHub Releases](https://github.com/zoutianxin1/obsidian-weave-reader/releases) 下载与 `manifest.json` 版本号一致的发布包，获取：
    - `main.js`
    - `manifest.json`
    - `styles.css`
@@ -201,8 +179,8 @@ flowchart LR
 ## 隐私与网络
 
 - 阅读、渲染、摘录与回链等**默认在本地完成**，不会主动上传 Vault 内容。
-- 书架、回链与来源定位等功能会在本地枚举 Vault 文件路径；复制摘录或激活码时会访问剪贴板。详见 [PRIVACY.md](./PRIVACY.md)。
-- **高级支持激活**可能访问许可证服务（激活码、邮箱、设备指纹摘要等），详见 [PRIVACY.md](./PRIVACY.md)。
+- 书架、回链与来源定位等功能会在本地枚举 Vault 文件路径；复制摘录时会访问剪贴板。详见 [PRIVACY.md](./PRIVACY.md)。
+- 此 fork 的本地阅读功能不需要许可证验证。
 - **AI 功能**会调用你自行配置的第三方服务。
 
 ## 常见问题
@@ -213,7 +191,7 @@ flowchart LR
 
 ### 与 Weave 的关系？
 
-**Weave EPUB Reader 可独立使用**：不安装 [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) 主插件，也能在 Obsidian 里阅读 EPUB、管理书架，并完成基础摘录与正文回显。安装 Weave 后，可额外衔接制卡复习、增量阅读月历、AI 菜单等能力，并可继承 Weave 授权以启用阅读器高级支持。二者是**可选联动**，不是硬性依赖。
+**Weave EPUB Reader 可独立使用**：不安装 [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) 主插件，也能使用此 fork 的全部本地阅读功能。安装 Weave 后，可额外衔接制卡复习、增量阅读月历和 AI 菜单。二者是可选联动，不是硬性依赖。
 
 ### 摘录笔记能否全平台同步？
 
@@ -223,17 +201,13 @@ flowchart LR
 
 **支持。** 摘录与高亮相关数据保存在你的库内，可在 Obsidian 中直接查看、编辑与导出 Markdown；阅读器也提供章节导出等能力。**数据默认完全本地化**，不会主动上传你的 Vault 内容。
 
-### 为何提供高级付费？
+### 是否需要订阅或激活码？
 
-高级支持用于**支持持续开发**——让开发者能长期投入、打磨阅读与摘录细节。**基础体验免费**，已覆盖日常阅读、五色高亮、想法、摘录与正文回显等核心能力，上手体验完整；若你需要多格式、双向溯源、段落阅读模式等进阶能力，再按需启用高级支持即可。
-
-### 是订阅还是买断？
-
-阅读器高级支持采用**买断制**（一次激活，长期使用，具体以 [高级支持条款](./PREMIUM_TERMS.md) 为准），而非按月订阅。
+不需要。此 fork 已开放仓库中实现的全部本地阅读功能，但不包含原作者的商业服务或官方支持。
 
 ### 非 EPUB 格式打不开？
 
-**EPUB 与 TXT** 在基础体验中即可阅读；**MOBI、AZW3、FB2、FBZ、CBZ** 等需启用高级支持。详见上文 [基础体验与高级支持](#基础体验与高级支持)。
+此 fork 可直接打开 EPUB、TXT、MOBI、AZW3、FB2、FBZ 和 CBZ。受 DRM 保护的电子书仍需先通过合法方式取得插件可以读取的文件。
 
 ### 插件文件夹名称？
 
@@ -382,40 +356,15 @@ This complements workflow A: **A is where captures go; E is when each chapter ge
 
 More detail: [Excerpt and note workflows](#excerpt-and-note-workflows) and [Core capabilities](#core-capabilities) above.
 
-## Essential experience and Premium support
+## Features in this fork
 
-| Capability | Essential experience | Premium support |
-|------------|:--------------------:|:---------------:|
-| **All platforms** (desktop and mobile) | ✅ | ✅ |
-| Read **EPUB**, TOC, paginated/scroll modes, typography and themes | ✅ | ✅ |
-| Read **TXT** plain-text books | ✅ | ✅ |
-| Read **MOBI / AZW3 / FB2 / FBZ / CBZ** | 🔒 | ✅ |
-| **Five highlight colors**, annotations, excerpts, and **in-body rendering** | ✅ | ✅ |
-| **Underline / strikethrough / wavy underline** styling | 🔒 | ✅ |
-| **Two-way tracing** (anchor jumps, reader ↔ notes / Canvas / decks) | 🔒 | ✅ |
-| **Paragraph reading mode**, reference reading points | 🔒 | ✅ |
-| **Reading progress**, bookshelf progress, last location, remaining-time estimates | ✅ | ✅ |
-| **Current-page bookmarks**, bookmark folder, and bookmark list navigation | ✅ | ✅ |
-| **Canvas** binding and automatic node creation | 🔒 | ✅ |
-| Footnote hover preview; export current chapter to Markdown | 🔒 | ✅ |
-
-> Legend: ✅ included · 🔒 requires Premium support
-
-- **Enable Premium support**: EPUB-only license in reader settings, or inherit from an activated **Weave** main plugin.
-- **Card making / incremental reading / AI**: No separate EPUB Premium-support license slot, but require Weave; AI also needs your own API key.
-
-Authoritative breakdown: [Essential experience and Premium support](#essential-experience-and-premium-support) above. Activate in reader settings. Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
+This fork does not require an activation code. EPUB, TXT, MOBI, AZW3, FB2, FBZ, CBZ, styled annotations, two-way tracing, paragraph mode, Canvas excerpts, footnote previews, and chapter export are available immediately. Card making, incremental reading, and AI still require Weave; AI also requires your own API key.
 
 ## Installation
 
-### Option 1: Community plugins (recommended)
+### Install this fork
 
-1. Open **Settings → Community plugins → Browse**
-2. Search for **Weave EPUB Reader**, install, and enable
-
-### Option 2: Manual installation
-
-1. Download a [GitHub release](https://github.com/zhuzhige123/obsidian-weave-reader/releases) matching the version in `manifest.json`:
+1. Download a [release from this fork](https://github.com/zoutianxin1/obsidian-weave-reader/releases) matching the version in `manifest.json`:
    - `main.js`
    - `manifest.json`
    - `styles.css`
@@ -438,8 +387,8 @@ Authoritative breakdown: [Essential experience and Premium support](#essential-e
 ## Privacy and network
 
 - Reading, rendering, excerpting, and backlinks are **local by default**; vault content is not uploaded proactively.
-- Bookshelf, backlink, and source-locate features enumerate vault file paths locally; copying excerpts or activation codes uses the clipboard. See [PRIVACY.md](./PRIVACY.md).
-- **Premium support activation** may contact the license service (activation code, email, device fingerprint summary, etc.). See [PRIVACY.md](./PRIVACY.md).
+- Bookshelf, backlink, and source-locate features enumerate vault file paths locally; copying excerpts uses the clipboard. See [PRIVACY.md](./PRIVACY.md).
+- This fork does not require license validation for local reader features.
 - **AI features** call the third-party services you configure.
 
 ## FAQ
@@ -450,7 +399,7 @@ Confirm the excerpt was created by this plugin, lives in Markdown / Canvas / Wea
 
 ### How does this relate to Weave?
 
-**Weave EPUB Reader works on its own**: without the [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) main plugin, you can still read EPUBs, use the bookshelf, and capture excerpts with in-body rendering. With Weave installed, you can also connect spaced-repetition cards, incremental reading calendar, AI actions, and inherit Weave licensing for Premium support. The two are **optional companions**, not a hard dependency.
+**Weave EPUB Reader works on its own**: without the [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) main plugin, you can use every local reader capability enabled by this fork. Installing Weave adds spaced-repetition cards, the incremental-reading calendar, and AI actions. The two plugins are optional companions.
 
 ### Can excerpts and notes sync across platforms?
 
@@ -460,17 +409,13 @@ Confirm the excerpt was created by this plugin, lives in Markdown / Canvas / Wea
 
 **Yes.** Excerpt and highlight data stays in your vault—you can read, edit, and export Markdown in Obsidian, and the reader offers chapter export and related tools. **Data is local by default**; your vault is not uploaded proactively.
 
-### Why is Premium support paid?
+### Does this fork require a subscription or activation code?
 
-Premium support **funds ongoing development** so the reader and excerpt workflow can keep improving. The **essential experience is free**—daily reading, five highlight colors, annotations, excerpts, and in-body rendering are fully usable without paying. Enable Premium support only when you want formats, two-way tracing, paragraph reading mode, and other advanced capabilities.
-
-### Subscription or one-time purchase?
-
-Premium support is **buy-once** (activate once, use long-term; see [Premium support terms](./PREMIUM_TERMS.md)), not a monthly subscription.
+No. This fork enables every local reader capability implemented in the repository. It does not include the original author's commercial services or official support.
 
 ### Cannot open MOBI / AZW3 / FB2?
 
-**EPUB and TXT** are included in the essential experience. **MOBI, AZW3, FB2, FBZ, and CBZ** require Premium support. See [Essential experience and Premium support](#essential-experience-and-premium-support) above.
+This fork opens EPUB, TXT, MOBI, AZW3, FB2, FBZ, and CBZ directly. DRM-protected ebooks still require a legally obtained file that the plugin can read.
 
 ### Plugin folder name?
 

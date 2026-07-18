@@ -6,6 +6,7 @@
     normalizeContinuousReadingPositionAutoSavePages,
   } from "../../config/reading-position-auto-save";
   import { normalizeSelectionTranslationSettings } from "../../config/selection-translation-settings";
+  import { EPUB_ALL_LOCAL_FEATURES_ENABLED } from "../../config/epub-feature-tier";
   import { EPUB_RUNTIME, normalizeEpubBookmarkFolderPath } from "../../services/epub";
   import type { CustomWebTranslationProvider } from "../../config/selection-translation-settings";
   import { normalizeInterfaceLanguagePreference, tr } from "../../utils/i18n";
@@ -269,12 +270,16 @@
     <div bind:this={interfaceSettingsHost} class="epub-native-settings-host"></div>
   </div>
 
-  <div class="epub-settings-group epub-settings-group--panel">
-    <div class="epub-settings-group-header">
-      <h3 class="epub-settings-group-title with-accent-bar accent-purple">{t("epub.settings.groups.premiumPreview")}</h3>
+  {#if EPUB_ALL_LOCAL_FEATURES_ENABLED}
+    <div bind:this={premiumPreviewSettingsHost} hidden></div>
+  {:else}
+    <div class="epub-settings-group epub-settings-group--panel">
+      <div class="epub-settings-group-header">
+        <h3 class="epub-settings-group-title with-accent-bar accent-purple">{t("epub.settings.groups.premiumPreview")}</h3>
+      </div>
+      <div bind:this={premiumPreviewSettingsHost} class="epub-native-settings-host"></div>
     </div>
-    <div bind:this={premiumPreviewSettingsHost} class="epub-native-settings-host"></div>
-  </div>
+  {/if}
 
   <div class="epub-settings-group epub-settings-group--panel">
     <div class="epub-settings-group-header">

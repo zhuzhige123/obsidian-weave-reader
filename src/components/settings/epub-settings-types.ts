@@ -6,7 +6,7 @@ import type {
 import type { InterfaceLanguagePreference } from "../../utils/i18n";
 import type StandaloneEpubPlugin from "../../main";
 
-export type EpubSettingsTabId = "basic" | "license" | "about";
+export type EpubSettingsTabId = "basic" | "about";
 
 export type SettingsCleanupFn = () => void;
 

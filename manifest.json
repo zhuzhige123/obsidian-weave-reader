@@ -3,8 +3,8 @@
   "name": "Weave EPUB Reader",
   "version": "0.6.49",
   "minAppVersion": "1.8.7",
-  "description": "Multi-format ebook reader for desktop and mobile: bookshelf, highlights, excerpts, and deep links (EPUB and TXT free; more formats with Premium).",
-  "author": "Rabbit (zhuzhige)",
-  "authorUrl": "https://github.com/zhuzhige123",
+  "description": "Multi-format ebook reader for desktop and mobile with all local reader capabilities enabled.",
+  "author": "Rabbit (zhuzhige), fork maintained by zoutianxin1",
+  "authorUrl": "https://github.com/zoutianxin1",
   "isDesktopOnly": false
 }

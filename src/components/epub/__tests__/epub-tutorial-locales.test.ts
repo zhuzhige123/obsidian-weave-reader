@@ -1,8 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { EPUB_TUTORIAL_CONTENT_BY_LANG, EPUB_TUTORIAL_TABS_BY_LANG } from "../epub-tutorial-content";
 import enUSTutorial from "../tutorial-locales/en-US.json";
-import jaJPTutorial from "../tutorial-locales/ja-JP.json";
-import koKRTutorial from "../tutorial-locales/ko-KR.json";
 import ruRUTutorial from "../tutorial-locales/ru-RU.json";
 
 const TAB_IDS = ["basics", "highlight", "workflow", "tools", "family", "credits"] as const;
@@ -30,18 +28,16 @@ describe("EPUB tutorial locales", () => {
 		}
 	});
 
-	it("ships dedicated tutorial body for ja, ko, and ru", () => {
-		expect(EPUB_TUTORIAL_CONTENT_BY_LANG["ja-JP"]).not.toBe(
+	it("uses the complete English tutorial when public ja and ko bodies are unavailable", () => {
+		expect(EPUB_TUTORIAL_CONTENT_BY_LANG["ja-JP"]).toBe(
 			EPUB_TUTORIAL_CONTENT_BY_LANG["en-US"]
 		);
-		expect(EPUB_TUTORIAL_CONTENT_BY_LANG["ko-KR"]).not.toBe(
+		expect(EPUB_TUTORIAL_CONTENT_BY_LANG["ko-KR"]).toBe(
 			EPUB_TUTORIAL_CONTENT_BY_LANG["en-US"]
 		);
 		expect(EPUB_TUTORIAL_CONTENT_BY_LANG["ru-RU"]).not.toBe(
 			EPUB_TUTORIAL_CONTENT_BY_LANG["en-US"]
 		);
-		expect(jaJPTutorial.basics[0]?.title).not.toBe(enUSTutorial.basics[0]?.title);
-		expect(koKRTutorial.basics[0]?.title).not.toBe(enUSTutorial.basics[0]?.title);
 		expect(ruRUTutorial.basics[0]?.title).not.toBe(enUSTutorial.basics[0]?.title);
 	});
 

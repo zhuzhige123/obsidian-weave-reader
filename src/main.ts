@@ -5,6 +5,7 @@ import { domInstanceOf } from "./utils/dom-instance-of";
 
 import { EpubDataManagementModalObsidian } from "./components/epub/EpubDataManagementModalObsidian";
 import { DEFAULT_EPUB_BOOKMARK_FOLDER } from "./config/epub-user-vault-folders";
+import { EPUB_ALL_LOCAL_FEATURES_ENABLED } from "./config/epub-feature-tier";
 import { isSupportedBookFile, isSupportedBookPath } from "./services/epub/book-format";
 import {
 	dispatchEpubBookshelfDataChanged,
@@ -180,7 +181,10 @@ export default class StandaloneEpubPlugin extends Plugin implements EpubHostCapa
 	}
 
 	hasEpubPremiumAccess(): boolean {
-		return this.getEffectiveLicenseState().isPremiumActive;
+		return (
+			EPUB_ALL_LOCAL_FEATURES_ENABLED ||
+			this.getEffectiveLicenseState().isPremiumActive
+		);
 	}
 
 	openEpubPremiumSettings(): void {

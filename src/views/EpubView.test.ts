@@ -188,7 +188,7 @@ describe('EpubView', () => {
 		expect(button.classList.contains('epub-view-action-hidden')).toBe(false);
 	});
 
-	it('hides canvas actions when canvas excerpt premium capability is unavailable', () => {
+	it('shows canvas actions under the fork policy even when the host reports no license', () => {
 		const view = new EpubView({} as any, { app: {} } as any);
 		const applyActionButtonState = vi.spyOn(view as any, 'applyActionButtonState');
 
@@ -199,14 +199,14 @@ describe('EpubView', () => {
 		(view as any).updateCanvasBtn();
 
 		expect(applyActionButtonState).toHaveBeenCalledWith((view as any).canvasBtn, expect.objectContaining({
-			visible: false,
+			visible: true,
 		}));
 		expect(applyActionButtonState).toHaveBeenCalledWith((view as any).inlineCanvasBtn, expect.objectContaining({
-			visible: false,
+			visible: true,
 		}));
 	});
 
-	it('shows paragraph mode as a premium preview action when capability is unavailable', () => {
+	it('shows paragraph mode as an unlocked action under the fork policy', () => {
 		const view = new EpubView({} as any, { app: {} } as any);
 		const applyActionButtonState = vi.spyOn(view as any, 'applyActionButtonState');
 
@@ -222,7 +222,7 @@ describe('EpubView', () => {
 			expect.objectContaining({
 				active: false,
 				visible: true,
-				label: expect.stringContaining('🔒'),
+				label: 'views.epubView.label.paragraphModeOn',
 			})
 		);
 		expect(applyActionButtonState).toHaveBeenCalledWith(
@@ -230,7 +230,7 @@ describe('EpubView', () => {
 			expect.objectContaining({
 				active: false,
 				visible: true,
-				label: expect.stringContaining('🔒'),
+				label: 'views.epubView.label.paragraphModeOn',
 			})
 		);
 	});

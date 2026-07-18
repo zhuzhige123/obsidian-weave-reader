@@ -18,6 +18,12 @@ export const EPUB_FEATURE_IDS = {
 	CHAPTER_EXPORT: "epub-chapter-export",
 } as const;
 
+/**
+ * Fork policy: every reader capability implemented in this repository is
+ * available locally without activation on desktop and mobile.
+ */
+export const EPUB_ALL_LOCAL_FEATURES_ENABLED = true;
+
 export const EPUB_CORE_FEATURE_IDS = [
 	EPUB_FEATURE_IDS.EXCERPT_NOTES,
 	EPUB_FEATURE_IDS.READING_PROGRESS,

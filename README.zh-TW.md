@@ -2,6 +2,8 @@
 
 [简体中文](./README.zh-CN.md) | [English](./README.md#english-documentation) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Русский](./README.ru.md)
 
+> Fork notice: `zoutianxin1/obsidian-weave-reader` enables all local reader capabilities without an activation code. See the root [README](./README.md) for current installation and feature details.
+
 <div align="center">
 
 ![Weave EPUB Reader](https://img.shields.io/badge/Obsidian-EPUB%20Reader-8a5cf6?style=for-the-badge)
