@@ -180,7 +180,7 @@ export default class StandaloneEpubPlugin extends Plugin implements EpubHostCapa
 	}
 
 	hasEpubPremiumAccess(): boolean {
-		return this.getEffectiveLicenseState().isPremiumActive;
+		return PremiumFeatureGuard.getInstance().getEffectiveState().isPremiumActive;
 	}
 
 	openEpubPremiumSettings(): void {

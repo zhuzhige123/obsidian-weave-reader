@@ -21,10 +21,10 @@ import {
 import {
 	isCloudLicenseConfigured,
 	LICENSE_CLOUD_MAX_DEVICES,
-	LICENSE_CLOUD_REVALIDATION_DAYS,
 } from "../config/license-cloud-config";
 import { sanitizeCloudLicenseUserMessage } from "./activation-privacy";
 import { CloudLicenseValidator } from "./cloudLicenseValidator";
+import { CloudValidationLease } from "./license-validation-lease";
 import { assertSubmittedEmailMatchesActivationOwner } from "./license-owner-email";
 import {
 	DEVICE_FINGERPRINT_VERSION,
@@ -48,6 +48,7 @@ function getRuntimePlatformLabel(): string {
 export class LicenseManager {
 	// 云端验证器
 	private cloudValidator: CloudLicenseValidator;
+	private cloudValidationLease = new CloudValidationLease();
 	private app: App | null = null;
 
 	constructor() {
@@ -56,6 +57,7 @@ export class LicenseManager {
 
 	initializeCloud(app: App): void {
 		this.app = app;
+		this.cloudValidationLease.clear();
 		this.cloudValidator.setApp(app);
 		ActivationAttemptLimiter.setApp(app);
 	}
@@ -301,6 +303,8 @@ export class LicenseManager {
 				};
 			}
 
+			this.cloudValidationLease.recordSuccess();
+
 			const maxDevices = Math.min(
 				cloudResult.max_devices ?? data.maxDevices ?? LICENSE_CLOUD_MAX_DEVICES,
 				LICENSE_CLOUD_MAX_DEVICES
@@ -433,6 +437,10 @@ export class LicenseManager {
 				}
 			}
 
+			if (!normalizedLicense.boundEmail?.trim()) {
+				return { isValid: false, error: "许可证缺少绑定邮箱，请重新激活" };
+			}
+
 			// 验证时间有效性
 			const now = new Date();
 			const activatedAt = new Date(normalizedLicense.activatedAt);
@@ -478,15 +486,12 @@ export class LicenseManager {
 				);
 			}
 
-			if (normalizedLicense.boundEmail && isCloudLicenseConfigured()) {
-				const cloudCheck = await this.performCloudValidation(
-					normalizedLicense,
-					currentFingerprint,
-					warnings
-				);
-				if (!cloudCheck.ok) {
-					return { isValid: false, error: cloudCheck.error };
-				}
+			const cloudCheck = await this.performCloudValidation(
+				normalizedLicense,
+				currentFingerprint
+			);
+			if (!cloudCheck.ok) {
+				return { isValid: false, error: cloudCheck.error };
 			}
 
 			// 重新验证激活码
@@ -579,16 +584,18 @@ export class LicenseManager {
 	 */
 	private async performCloudValidation(
 		licenseInfo: LicenseInfo,
-		currentFingerprint: string,
-		warnings: string[]
+		currentFingerprint: string
 	): Promise<{ ok: boolean; error?: string }> {
 		try {
-			if (!licenseInfo.boundEmail) {
-				return { ok: true };
+			if (!licenseInfo.boundEmail?.trim()) {
+				return { ok: false, error: "许可证缺少绑定邮箱，请重新激活" };
 			}
 
-			const needsValidation = this.shouldPerformCloudValidation(licenseInfo);
-			if (!needsValidation) {
+			if (!isCloudLicenseConfigured()) {
+				return { ok: false, error: "云服务未配置，无法验证许可证" };
+			}
+
+			if (!this.cloudValidationLease.getStatus().needsValidation) {
 				return { ok: true };
 			}
 
@@ -608,13 +615,16 @@ export class LicenseManager {
 					devicesUsed: cloudResult.devices_count ?? licenseInfo.cloudSync?.devicesUsed,
 					devicesMax: cloudResult.max_devices ?? licenseInfo.cloudSync?.devicesMax ?? licenseInfo.maxDevices,
 				};
+				this.cloudValidationLease.recordSuccess();
 				return { ok: true };
 			}
 
 			if (cloudResult.is_network_error) {
 				logger.warn("许可证云端验证暂时不可用");
-				warnings.push("许可证验证暂时不可用，请稍后重试");
-				return { ok: true };
+				return {
+					ok: false,
+					error: "许可证验证暂时不可用，请恢复网络后重试",
+				};
 			}
 
 			return {
@@ -630,20 +640,6 @@ export class LicenseManager {
 				error: error instanceof Error ? error.message : "云端验证异常",
 			};
 		}
-	}
-
-	private shouldPerformCloudValidation(licenseInfo: LicenseInfo): boolean {
-		if (!isCloudLicenseConfigured() || !licenseInfo.boundEmail) {
-			return false;
-		}
-
-		if (!licenseInfo.cloudSync?.lastValidatedAt) {
-			return true;
-		}
-
-		const lastValidated = new Date(licenseInfo.cloudSync.lastValidatedAt).getTime();
-		const daysSince = (Date.now() - lastValidated) / (1000 * 60 * 60 * 24);
-		return daysSince >= LICENSE_CLOUD_REVALIDATION_DAYS;
 	}
 }
 
