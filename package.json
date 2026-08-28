@@ -1,7 +1,7 @@
 {
   "name": "weave-epub-reader",
   "private": true,
-  "version": "0.7.21",
+  "version": "0.7.22",
   "description": "Standalone EPUB reader with bookshelf, deep links, and reading state persistence.",
   "main": "main.js",
   "type": "module",
