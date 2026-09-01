@@ -20,68 +20,11 @@
 
 ## Introduction
 
-**Weave Epub Reader** est un plugin de lecture de la **série de plugins Obsidian Weave**, conçu entièrement pour Obsidian et disponible sur toutes les plateformes Obsidian. Il prend en charge gratuitement la lecture d’EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, PDF et d’autres formats, ainsi que des extraits annotés de plusieurs types. Les extraits peuvent être enregistrés dans des fichiers **Markdown**, **Canvas** et **paquets Weave**, avec des liens sources bidirectionnels pour sauter au passage correspondant, et les données restent entièrement locales.
+**Weave Epub Reader** est un plugin de lecture de la **série de plugins Obsidian Weave**, conçu entièrement pour Obsidian et disponible sur toutes les plateformes Obsidian. Il prend en charge gratuitement la lecture d’EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, PDF et d’autres formats, ainsi que des extraits annotés de plusieurs types. Les extraits peuvent être enregistrés dans des fichiers **Markdown**, **Canvas** et **paquets Weave**, avec des liens sources pour naviguer entre les notes et le livre, et les données restent entièrement locales.
 
-En plus des besoins essentiels et de l’expérience de base, les utilisateurs avancés disposent de la **lecture immersive**, de la **lecture par paragraphes**, du **marquage de vocabulaire**, des **résumés d’extraits en chronologie**, des **listes de citations d’extraits** et de **davantage de fonctions**—pour utiliser les outils dans Obsidian, favoriser la réflexion, affûter le jugement et donner du sens à la lecture.
+L’expérience essentielle couvre la lecture quotidienne, la gestion de l’étagère, les résumés d’extraits, les **modèles de page de données du livre** et le rendu dans le corps du texte. Le support Premium ajoute la **chronologie d’extraits de toute l’étagère**, le **traçage bidirectionnel**, la **lecture par paragraphes / plein écran immersif**, le **marquage et l’apprentissage du vocabulaire** et bien plus—pour utiliser les outils dans Obsidian, favoriser la réflexion, affûter le jugement et donner du sens à la lecture.
 
 > Astuce : pour toute question, n’hésitez pas à écrire à tutaoyuan8@outlook.com
-
-## Liste des fonctions principales
-
-### Lecture et étagère
-
-- Lecture sur toutes les plateformes : bureau et mobile
-- Lecture EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ et PDF
-- Mon étagère : import, couvertures, progression, recherche/filtre, statut de lecture, plusieurs vues
-- Saut dans la table des matières, lecture double page, défilement continu d’une page et autres modes, plus typographie et thèmes
-- Mise en forme : par défaut suit Obsidian ; police et taille du corps personnalisable dans le lecteur
-- Progression de lecture persistante, signets, estimation du temps restant
-- Points de lecture de référence (enregistrer / mettre à jour / aller)
-- Dégradé translucide de lecture (Premium)
-- Mode de lecture par paragraphes, plein écran immersif (Premium)
-- Mode de marquage de vocabulaire (Premium)
-- Listes de lecture de l’étagère (Premium)
-
-### Extraits et annotations
-
-- Cinq couleurs de surlignage plus souligné / barré / souligné ondulé
-- Bulles de pensée (`---div---`)
-- Mode automatique : insérer dans les notes / copier dans le presse-papiers
-- Rendu dans le corps et synchronisation pour Markdown / Canvas / paquets Weave
-- Extraits par capture d’écran (peuvent continuer sur plusieurs pages)
-
-### Résumés d’extraits
-
-- Liste de cartes d’extraits (filtrer, trier, aller à la source)
-- Vue chronologique des extraits (revoir par date, aller à la source ; Premium)
-- Sélection par lots : exporter / supprimer
-- Barre de densité de la carte du livre dans la barre latérale de la table des matières (Premium)
-- Marques de chapitre dans la table des matières (important / question / maîtrisé ; Premium)
-
-### Traçage et intégrations
-
-- Liens profonds vers le livre écrits dans les extraits
-- Traçage bidirectionnel précis : notes ↔ livre (Premium)
-- Liaison Canvas, création automatique de nœuds et rendu
-- Création de cartes / lecture incrémentale / IA (nécessite Weave ; ne consomme pas la licence Premium du lecteur)
-
-### API publique
-
-- Obtenir le contexte de lecture actuel (titre du livre, titre / index du chapitre actuel, etc.)
-- Obtenir le corps du chapitre actuel, ou le corps d’une section TOC donnée (texte / markdown)
-- Obtenir les extraits surlignés du chapitre actuel, ou lister tous les extraits du livre actuel / d’un livre donné
-- Lire la structure de la table des matières, lister les lecteurs ouverts ; éventuellement retirer un extrait par localisateur
-- Pas de recherche / RAG sur le corps de tout le livre ; pour les longs chapitres, privilégier les sections TOC
-
-### Exportation et aides
-
-- Modèles d’exportation de notes et préréglages intégrés (Essential)
-- Exporter le chapitre actuel en Markdown avec les extraits (Premium)
-- Exporter les extraits de tout le livre / du chapitre et les chapitres marqués (Premium)
-- Aperçu des notes de bas de page au survol (Premium)
-- Interface multilingue (简体中文、繁體中文、English、日本語、한국어、Русский、Deutsch、Español、العربية) + tutoriel dans l’application
-
-Voir [Expérience essentielle et support Premium](#expérience-essentielle-et-support-premium) pour le regroupement des capacités.
 
 Version minimale d’Obsidian : **1.8.7**
 
@@ -89,43 +32,51 @@ Version minimale d’Obsidian : **1.8.7**
 
 | Capacité | Expérience essentielle | Support Premium |
 |----------|:----------------------:|:---------------:|
-| **Toutes les plateformes** | ✅ | ✅ |
-| **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** | ✅ | ✅ |
-| **Saut TOC**, **lecture double page**, **défilement continu d’une page** et autres modes | ✅ | ✅ |
-| **Typographie de lecture** : **suivre Obsidian**, **police et taille du corps personnalisées**, **styles originaux du livre (éditeur)** | ✅ | ✅ |
-| **Cinq couleurs de surlignage**, annotations, extraits et **rendu dans le corps** | ✅ | ✅ |
-| Styles **souligné / barré / souligné ondulé** | ✅ | ✅ |
-| Vue **liste de cartes** des extraits | ✅ | ✅ |
-| **Plusieurs vues** de l’étagère | ✅ | ✅ |
+| **Toutes les plateformes** (bureau / mobile) | ✅ | ✅ |
+| Lecture **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** | ✅ | ✅ |
+| **Mon étagère** : import, couvertures, progression, recherche/filtre, statut de lecture | ✅ | ✅ |
+| **Vues multiples** de l’étagère, **statistiques d’extraits** (extraits / idées / cartes) | ✅ | ✅ |
+| **Saut dans la table des matières**, **lecture double page**, **défilement continu d’une page** et autres modes | ✅ | ✅ |
+| **Typographie de lecture** : suivre Obsidian, **police et taille du corps personnalisées**, styles de l’éditeur | ✅ | ✅ |
+| **Progression de lecture** persistante, progression sur l’étagère | ✅ | ✅ |
+| **Signets de la page actuelle**, dossier de signets et navigation par liste de signets | ✅ | ✅ |
 | **Points de lecture de référence** (enregistrer / mettre à jour / aller) | ✅ | ✅ |
-| **Progression de lecture**, progression sur l’étagère, dernier emplacement | ✅ | ✅ |
-| **Signets de la page actuelle**, dossier de signets et navigation dans la liste de signets | ✅ | ✅ |
+| **Cinq couleurs de surlignage**, idées (`---div---`), extraits et **rendu dans le corps** | ✅ | ✅ |
+| Styles **souligné / barré / souligné ondulé** | ✅ | ✅ |
+| **Extrait automatique** (insérer dans les notes / copier dans le presse-papiers) | ✅ | ✅ |
+| **Extraits par capture d’écran** (peuvent continuer sur plusieurs pages) | ✅ | ✅ |
+| **Liste de cartes** d’extraits (filtrer, trier, aller à la source) | ✅ | ✅ |
+| **Chronologie** d’extraits (**livre actuel**, parcourir par jour) | ✅ | ✅ |
+| **Sélection par lots** d’extraits, exporter, supprimer | ✅ | ✅ |
 | Liaison **Canvas** et création automatique de nœuds | ✅ | ✅ |
+| **Modèles de page de données du livre** (personnaliser la mise en page `data_*.md` de chaque livre) | ✅ | ✅ |
 | **Modèles d’exportation de notes** et préréglages intégrés | ✅ | ✅ |
-| **API publique** (corps du chapitre actuel / d’une section TOC, extraits du chapitre ou de tout le livre, etc.) | ✅ | ✅ |
-| Vue **chronologie** des extraits | 🔒 | ✅ |
-| **Barre de densité de la carte du livre** dans la barre latérale TOC | 🔒 | ✅ |
-| **Marques de chapitre** dans la table des matières (important / question / maîtrisé) | 🔒 | ✅ |
-| **Listes de lecture** de l’étagère | 🔒 | ✅ |
+| Exporter le **corps du chapitre actuel** en Markdown | ✅ | ✅ |
+| **API publique** (chapitre actuel / corps d’une section TOC, notes d’extraits du chapitre ou de tout le livre, etc.) | ✅ | ✅ |
+| Interface multilingue (chinois simplifié, chinois traditionnel, English, japonais, coréen, russe, allemand, espagnol, arabe) et **tutoriel** dans l’app | ✅ | ✅ |
+| **Chronologie d’extraits de toute l’étagère** (revue quotidienne entre livres, aller à la source) | 🔒 | ✅ |
+| **Barre de densité de la carte du livre** dans la barre latérale de la table des matières | 🔒 | ✅ |
+| **Marques de chapitre** dans la table des matières (important / question / maîtrisé, etc.) | 🔒 | ✅ |
+| **Listes de lecture** de l’étagère (y compris définir comme accueil) | 🔒 | ✅ |
 | **Traçage bidirectionnel** (sauts d’ancre, notes ↔ emplacement dans le livre) | 🔒 | ✅ |
 | **Dégradé translucide de lecture** | 🔒 | ✅ |
 | **Mode de lecture par paragraphes**, plein écran immersif | 🔒 | ✅ |
-| **Mode de marquage de vocabulaire** | 🔒 | ✅ |
-| Exporter le chapitre actuel en Markdown (avec extraits) | 🔒 | ✅ |
+| **Marquage de vocabulaire** (marques dans le texte, consultation par double-clic, ajout au vocabulaire Weave) | 🔒 | ✅ |
+| **Exportation Markdown avancée** (notes d’extraits de tout le livre / du chapitre, chapitres avec marques d’extraits) | 🔒 | ✅ |
 | Aperçu des notes de bas de page au survol | 🔒 | ✅ |
 
 > Légende : ✅ inclus · 🔒 nécessite le support Premium
 
-- **Activer le support Premium** : utilisez un code d’activation EPUB uniquement dans les réglages du lecteur ; si un plugin principal **Weave** activé est installé, l’autorisation peut être héritée sans ressaisir de code.
-- **Création de cartes / lecture incrémentale / IA** : ne consomment pas une licence Premium distincte du lecteur, mais nécessitent Weave ; l’IA nécessite aussi votre propre clé API.
+- **Activer le support Premium** : utilisez un code d’activation EPUB dédié dans les paramètres du lecteur ; si le plugin principal **Weave** est installé et activé, l’autorisation peut être héritée sans ressaisir de code.
+- **Création de cartes / lecture incrémentale / IA** : ne consomment pas de licence Premium séparée du lecteur, mais nécessitent Weave ; l’IA requiert également votre propre clé API.
 
-Répartition officielle : [Expérience essentielle et support Premium](#expérience-essentielle-et-support-premium) ci-dessus. Activez dans les réglages du lecteur. Conditions : [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
+L’activation se fait dans les paramètres du lecteur. Conditions : [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
 
 ## Installation
 
 ### Option 1 : Plugins communautaires (recommandé)
 
-1. Ouvrez **Réglages → Plugins communautaires → Parcourir**
+1. Ouvrez **Paramètres → Plugins communautaires → Parcourir**
 2. Recherchez **Weave EPUB Reader**, installez et activez
 
 ### Option 2 : Installation manuelle
@@ -135,61 +86,67 @@ Répartition officielle : [Expérience essentielle et support Premium](#expérie
    - `manifest.json`
    - `styles.css`
 2. Copiez-les dans `.obsidian/plugins/weave-epub-reader/`
-3. Redémarrez Obsidian et activez **Weave EPUB Reader** sous **Réglages → Plugins communautaires**
+3. Redémarrez Obsidian et activez **Weave EPUB Reader** dans **Paramètres → Plugins communautaires**
 
 ## Démarrage rapide
 
-1. Après avoir activé le plugin, ouvrez l’**étagère** depuis le ruban ou la palette de commandes, puis importez ou ouvrez un livre de votre vault.
-2. Créez ou ouvrez un fichier Markdown et placez le curseur où les extraits doivent aller ; activez **Extrait automatique** dans le lecteur. Sélectionnez du texte pour créer des surlignages, extraits ou signets—ils sont insérés à ce curseur.
-3. Cliquez sur un surlignage dans le livre pour aller à sa note source depuis la barre d’outils ; dans le Markdown / Canvas qui contient l’extrait, cliquez sur l’icône livre à côté pour revenir au passage correspondant.
-4. Menu du lecteur → **Aide** → **Tutoriel** pour le guide dans l’application.
+1. Après avoir activé le plugin, ouvrez l’**étagère** depuis la barre latérale ou la palette de commandes, puis importez ou ouvrez un livre de votre vault.
+2. Créez ou ouvrez un fichier Markdown et placez le curseur à l’emplacement des extraits ; activez **Extrait automatique** dans le lecteur. Sélectionnez du texte pour créer des surlignages, extraits ou signets—ils sont insérés à cet emplacement.
+3. Cliquez sur un surlignage dans le livre pour aller à sa note source depuis la barre d’outils ; dans le Markdown / Canvas qui contient l’extrait, cliquez sur l’icône du livre à côté pour revenir au passage correspondant.
+4. Menu du lecteur → **Aide** → **Tutoriel** pour le guide succinct dans l’app ; la question fréquente 1 détaille le flux d’extraits.
 
 ## Données et synchronisation
 
-**Bon à synchroniser (dans le vault)** : fichiers de livres, extraits Markdown, fichiers Canvas, données de paquets Weave et notes de progression/signets par livre (par défaut `Weave EPUB Reader/data_*.md`).
+**À synchroniser (dans le vault)** : fichiers de livres, extraits Markdown, fichiers Canvas, données de paquets Weave, et notes de progression/signets par livre (par défaut `Weave EPUB Reader/data_*.md`).
 
-**Généralement local (dossier du plugin)** : cache du lecteur, index, liaisons Canvas, points de lecture de référence et état local similaire. Préférez synchroniser le contenu du vault entre appareils plutôt que les fichiers de cache sous `.obsidian/plugins/weave-epub-reader/`.
+**Généralement local (dossier du plugin)** : cache du lecteur, index, liaisons Canvas, points de lecture de référence et état local similaire. Privilégiez la synchronisation du contenu du vault entre appareils plutôt que les fichiers de cache sous `.obsidian/plugins/weave-epub-reader/`.
 
 ## Confidentialité et réseau
 
 - La lecture, le rendu, les extraits et les backlinks sont **locaux par défaut** ; le contenu du vault n’est pas téléversé de façon proactive.
-- Les fonctions d’étagère, de backlinks et de localisation de source énumèrent les chemins de fichiers du vault localement ; la copie d’extraits ou de codes d’activation utilise le presse-papiers. Voir [PRIVACY.md](./PRIVACY.md).
-- L’**activation du support Premium** peut contacter le service de licences (code d’activation, e-mail, résumé d’empreinte de l’appareil, etc.). Voir [PRIVACY.md](./PRIVACY.md).
-- Les **fonctions d’IA** appellent les services tiers que vous configurez.
+- Les fonctions d’étagère, de backlinks et de localisation de source énumèrent localement les chemins de fichiers du vault ; copier des extraits ou des codes d’activation utilise le presse-papiers. Consultez [PRIVACY.md](./PRIVACY.md).
+- L’**activation du support Premium** peut contacter le service de licences (code d’activation, e-mail, résumé d’empreinte de l’appareil, etc.). Consultez [PRIVACY.md](./PRIVACY.md).
+- Si vous utilisez le menu IA via le plugin principal **Weave**, les services tiers que vous configurez sont appelés ; **le lecteur lui-même ne fournit pas de fonctions IA** (voir la question fréquente 3).
 
-## FAQ
+## Questions fréquentes
 
-### Comment capturer correctement les extraits de lecture ?
+### 1. Comment capturer correctement les extraits de lecture ?
 
-Les extraits sont enregistrés à des emplacements concrets dans les fichiers Markdown, Canvas ou paquets Weave que vous choisissez. Le lecteur agrège les liens source de ces captures et affiche des surlignages dans le livre. Les sélections non enregistrées de cette façon ne font que clignoter brièvement et ne laissent aucune donnée durable. La bannière du tutoriel dans le lecteur l’explique plus en détail.
+Les extraits sont enregistrés à des emplacements précis dans les fichiers Markdown, Canvas ou paquets Weave que vous choisissez. Le lecteur agrège les liens sources de ces captures et affiche les surlignages dans le livre. Les sélections qui ne sont pas enregistrées ainsi ne font qu’un bref flash et ne laissent pas de données durables. La bannière de tutoriel dans le lecteur l’explique plus en détail.
 
-### Quel est le lien avec Weave ?
+### 2. Quel est le lien avec Weave ?
 
-**Weave EPUB Reader fonctionne seul** : sans le plugin principal [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin), vous pouvez toujours lire des EPUB, utiliser l’étagère et capturer des extraits avec rendu dans le corps. Avec Weave installé, vous pouvez aussi connecter les cartes de répétition espacée, le calendrier de lecture incrémentale, les actions d’IA, et hériter de la licence Weave pour le support Premium. Ce sont des **compagnons optionnels**, pas une dépendance obligatoire.
+**Weave EPUB Reader fonctionne de manière autonome** : sans le plugin principal [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin), vous pouvez toujours lire des EPUB, utiliser l’étagère et capturer des extraits avec rendu dans le corps. Avec Weave installé, vous pouvez aussi connecter les cartes de répétition espacée, le calendrier de lecture incrémentale, les actions IA et hériter de la licence Weave pour le support Premium. Les deux sont des **compagnons optionnels**, pas une dépendance obligatoire.
 
-### Les extraits et notes peuvent-ils se synchroniser entre plateformes ?
+### 3. Le lecteur intègre-t-il l’IA ?
 
-**Oui.** Les captures vivent dans Markdown, Canvas, fichiers de paquets et autre contenu du vault, donc elles suivent la synchronisation Obsidian que vous utilisez déjà (Obsidian Sync, iCloud, vaults synchronisés dans le cloud, etc.) entre bureau et mobile. Synchronisez le contenu du vault ; le cache du lecteur sous le dossier du plugin n’a en général pas besoin de synchronisation entre appareils (voir [Données et synchronisation](#données-et-synchronisation) ci-dessus).
+À ce stade, nous n’envisageons pas d’intégrer l’IA dans le plugin lecteur. La vision est de vous offrir un environnement de lecture propre et immersif dans Obsidian, avec une interaction fluide et naturelle et une édition de texte confortable. Nous n’avons pas l’intention d’utiliser l’IA pour l’analyse automatique, les résumés ou la lecture assistée conversationnelle. Dans la plupart des cas, cela perturberait votre rythme de lecture, disperserait votre attention et nuirait à la réflexion profonde pendant la lecture.
 
-### Puis-je exporter mes notes ?
+Si vous avez besoin d’IA, vous pouvez copier du contenu, exporter le chapitre actuel en fichier MD ou utiliser l’**API** du plugin pour obtenir le texte du chapitre et les notes d’extraits, puis combiner avec d’autres plugins dotés de capacités IA pour les flux automatisés que vous souhaitez. L’API existe précisément à cette fin.
 
-**Oui.** Les données d’extraits et de surlignages restent dans votre vault—vous pouvez lire, modifier et exporter le Markdown dans Obsidian, et le lecteur propose l’exportation de chapitres et des outils associés. **Les données sont locales par défaut** ; votre vault n’est pas téléversé de façon proactive.
+### 4. Les extraits et notes peuvent-ils se synchroniser entre plateformes ?
 
-### Pourquoi le support Premium est-il payant ?
+**Oui.** Les captures résident dans le Markdown, Canvas, fichiers de paquets et autre contenu du vault, elles suivent donc la synchronisation Obsidian que vous utilisez déjà (Obsidian Sync, iCloud, vaults synchronisés dans le cloud, etc.) entre bureau et mobile. Synchronisez le contenu du vault ; le cache du lecteur sous le dossier du plugin n’a généralement pas besoin de synchronisation entre appareils (voir [Données et synchronisation](#données-et-synchronisation) ci-dessus).
 
-Le support Premium **finance le développement continu** pour que le lecteur et le flux d’extraits continuent de s’améliorer. L’**expérience essentielle est gratuite**—la lecture quotidienne, cinq couleurs de surlignage, annotations, extraits et rendu dans le corps sont pleinement utilisables sans payer. Activez le support Premium seulement lorsque vous souhaitez la chronologie des extraits, le traçage bidirectionnel, le mode de lecture par paragraphes et d’autres capacités avancées.
+### 5. Puis-je exporter mes notes ?
 
-### Abonnement ou achat unique ?
+**Oui.** Les données d’extraits et de surlignage restent dans votre vault—vous pouvez lire, modifier et exporter du Markdown dans Obsidian, et le lecteur propose l’exportation de chapitres et des outils associés. **Les données sont locales par défaut** ; votre vault n’est pas téléversé de façon proactive.
 
-Le support Premium est un **achat unique** (activez une fois, utilisez à long terme ; voir [conditions du support Premium](./PREMIUM_TERMS.md)), pas un abonnement mensuel.
+### 6. Pourquoi le support Premium est-il payant ?
 
-### Comment changer la police et la taille ?
+Le support Premium **finance le développement continu** afin que le lecteur et le flux d’extraits continuent de s’améliorer. L’**expérience essentielle est gratuite**—la lecture quotidienne, cinq couleurs de surlignage, idées, extraits et rendu dans le corps sont pleinement utilisables sans payer. Activez le support Premium uniquement lorsque vous souhaitez la chronologie d’extraits de toute l’étagère, le traçage bidirectionnel, le mode de lecture par paragraphes et d’autres capacités avancées.
 
-Par défaut, le lecteur **suit la police et la taille de texte d’Obsidian**. Ouvrez **Typographie** dans le menu du lecteur et activez **Police et taille du corps personnalisées** pour choisir une police prédéfinie et ajuster la taille (en pourcentage de la base Obsidian). Avec **Utiliser les styles de l’éditeur** activé, les polices originales de l’EPUB s’appliquent.
+### 7. Abonnement ou achat unique ?
 
-### Comment changer la couleur de fond ?
+Le support Premium est un **achat unique** (activez une fois, utilisez à long terme ; consultez [conditions du support Premium](./PREMIUM_TERMS.md)), et non un abonnement mensuel.
 
-L’arrière-plan du lecteur **suit le thème Obsidian actif**. Installez et changez de thème ; le plugin ne définit pas de fond propre.
+### 8. Comment modifier la police et la taille ?
+
+Par défaut, le lecteur **suit la police et la taille de texte d’Obsidian**. Ouvrez **Typographie** dans le menu du lecteur et activez **Police et taille du corps personnalisées** pour choisir une police prédéfinie et ajuster la taille (en pourcentage de la base Obsidian). Lorsque **Utiliser les styles de l’éditeur** est activé, les polices originales de l’EPUB s’appliquent.
+
+### 9. Comment changer la couleur de fond ?
+
+Le fond du lecteur **suit le thème Obsidian actif**. Installez et changez de thème ; le plugin ne définit pas de fond propre.
 
 ## Plus de documentation
 
