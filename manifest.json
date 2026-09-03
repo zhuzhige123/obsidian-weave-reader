@@ -1,7 +1,7 @@
 {
   "id": "weave-epub-reader",
   "name": "Weave EPUB Reader",
-  "version": "0.7.30",
+  "version": "0.7.31",
   "minAppVersion": "1.8.7",
   "description": "Multi-format ebook reader for desktop and mobile: bookshelf, highlights, excerpts, and deep links (EPUB, TXT, FB2, MOBI, AZW3, CBZ, and PDF).",
   "author": "Rabbit (zhuzhige)",
