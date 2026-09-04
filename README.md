@@ -1,22 +1,24 @@
-# Weave EPUB Reader
+
 
 [中文](#中文文档) | [繁體中文](./README.zh-TW.md) | [English](#english-documentation) | [Español](./README.es.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
 
 
-![weave-series-banner-og](https://github.com/user-attachments/assets/a52c0875-9296-4dfd-bf94-114a225f2972)
 
 ![weave-series-banner-trinity](https://github.com/user-attachments/assets/8f748341-bb83-4cf9-b020-d8cd18a2aa92)
-   
-![QQ_1784327250240](https://github.com/user-attachments/assets/dc88b393-76ec-413c-b226-31ab01a7e82a)
 
-![QQ20260718-070731-HD](https://github.com/user-attachments/assets/c1850008-aa57-48e1-b63f-d34a01326a53)
-
-![QQ20260718-064929-HD](https://github.com/user-attachments/assets/5fc7ff83-b8e3-498f-8233-90fbcc94198b)
-
-![QQ_1784328028569](https://github.com/user-attachments/assets/1185b662-3f91-4dee-b552-e53e3ebcb25d)
+![weave-series-banner-og](https://github.com/user-attachments/assets/a52c0875-9296-4dfd-bf94-114a225f2972)
 
 
-![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
+![image](https://github.com/user-attachments/assets/d2180376-243a-4cb0-8392-03b262fc972c)
+
+![image](https://github.com/user-attachments/assets/1c23cd98-db63-45e0-be20-204a32f00a90)
+
+
+
+![image](https://github.com/user-attachments/assets/1924e4e5-346f-4e0a-88fa-f8a6ccbdbf90)
+
+![image](https://github.com/user-attachments/assets/58a7c42a-f468-4eb9-858e-0179e9e0e3d4)
+
 
 </div>
 
