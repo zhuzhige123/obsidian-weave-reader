@@ -19,7 +19,6 @@
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
 
-</div>
 
 ---
 
@@ -27,13 +26,16 @@
 
 ### Introduction
 
-**Weave Epub Reader** is a reader plugin in the **Obsidian Weave plugin series**, built fully for Obsidian and available across Obsidian platforms. It freely supports reading EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, PDF, and more, plus multi-style excerpt notes. Excerpts can be stored in **Markdown**, **Canvas**, and **Weave deck** files, with source links for jumping between notes and the book, and data stays fully local.
+Weave EPUB Reader embeds reading into Obsidian’s knowledge workflow: immerse yourself in multi-format ebooks inside your vault; excerpts and thoughts can go into Markdown, Canvas, or the Weave memory system, with book anchors so notes and source text jump to each other. Typography can follow Obsidian; excerpt and bookshelf data live in your vault files—not locked inside a closed reading app. Reading can collaborate in the same context as notes, card-making, and many community plugins. Your data stays fully local in your vault.
 
-The essential experience covers daily reading, bookshelf management, excerpt summaries, **book data page templates**, and in-body rendering. Premium support adds **library-wide excerpt timelines**, **two-way tracing**, **paragraph reading / immersive fullscreen**, **vocabulary marking and study**, and more—using tools inside Obsidian to think, sharpen judgment, and make reading count.
+It is a reader plugin in the **Obsidian Weave plugin series** (exactly three plugins: Weave Deck, Weave EPUB Reader, and Weave Incremental Reading), built fully for Obsidian and available across Obsidian platforms. Freely supports EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, PDF, and more.
+
+The essential experience covers daily reading, bookshelf management, excerpt summaries, **book data page templates**, and in-body rendering. Premium support adds **library-wide excerpt timelines**, **two-way tracing**, **paragraph reading / immersive fullscreen**, **vocabulary marking and study**, and more.
 
 > Tip: Questions welcome—email tutaoyuan8@outlook.com
 
 Minimum Obsidian version: **1.8.7**
+
 
 ## Essential experience and Premium support
 
@@ -175,13 +177,16 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 
 ### 插件介绍
 
-**Weave Epub Reader** 为 **Obsidian Weave 插件系列**下的一款完全服务于 Obsidian、并随 Obsidian 全平台使用的阅读器插件。支持免费提供 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等多格式书籍阅读与多标注类型的摘录笔记体验。摘录可保存在 **Markdown**、**Canvas**、**Weave 牌组文件**中，通过溯源链接在笔记与原书之间跳转，数据完全本地化。
+Weave EPUB Reader 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。阅读排版可跟随 Obsidian，摘录与书目数据落在你的库文件中，而不是锁进封闭阅读 App。因而阅读能与笔记、制卡及众多社区插件同一语境协作。数据完全本地化，留在你的库里。
 
-基础体验覆盖日常阅读、书架管理、摘录汇总、**书籍数据页模板**与正文回显；高级支持在此基础上提供**全书架摘录时间线**、**双向溯源**、**段落阅读 / 沉浸式全屏**、**生词标注与学习**等进阶能力，旨在 Obsidian 中利用工具，促进思考，磨砺思维，诠释存在。
+它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Deck、Weave EPUB Reader、Weave Incremental Reading），完全服务于 Obsidian，并随 Obsidian 全平台使用。免费提供 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等多格式阅读与多标注类型的摘录笔记体验。
+
+基础体验覆盖日常阅读、书架管理、摘录汇总、**书籍数据页模板**与正文回显；高级支持在此基础上提供**全书架摘录时间线**、**双向溯源**、**段落阅读 / 沉浸式全屏**、**生词标注与学习**等进阶能力。
 
 > 提示：若有问题，欢迎通过邮箱反馈交流 tutaoyuan8@outlook.com
 
 最低 Obsidian 版本：**1.8.7**
+
 
 ## 基础体验与高级支持
 
