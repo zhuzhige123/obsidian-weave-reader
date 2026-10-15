@@ -1,6 +1,6 @@
 # Weave EPUB Reader
 
-[简体中文](#中文文档) | [繁體中文](./README.zh-TW.md) | [English](#english-documentation) | [Español](./README.es.md) | [Français](./README.fr.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [Русский](./README.ru.md) | [العربية](./README.ar.md)
+[绠€浣撲腑鏂嘳(#涓枃鏂囨。) | [绻侀珨涓枃](./README.zh-TW.md) | [English](#english-documentation) | [Espa帽ol](./README.es.md) | [Fran莽ais](./README.fr.md) | [鏃ユ湰瑾瀅(./README.ja.md) | [頃滉淡鞏碷(./README.ko.md) | [袪褍褋褋泻懈泄](./README.ru.md) | [丕賱毓乇亘賷丞](./README.ar.md)
 
 
 
@@ -26,13 +26,13 @@
 
 ### Introduction
 
-Weave EPUB Reader embeds reading into Obsidian’s knowledge workflow: immerse yourself in multi-format ebooks inside your vault; excerpts and thoughts can go into Markdown, Canvas, or the Weave memory system, with book anchors so notes and source text jump to each other. Typography can follow Obsidian; excerpt and bookshelf data live in your vault files—not locked inside a closed reading app. Reading can collaborate in the same context as notes, card-making, and many community plugins. Your data stays fully local in your vault.
+Weave EPUB Reader embeds reading into Obsidian鈥檚 knowledge workflow: immerse yourself in multi-format ebooks inside your vault; excerpts and thoughts can go into Markdown, Canvas, or the Weave memory system, with book anchors so notes and source text jump to each other. Typography can follow Obsidian; excerpt and bookshelf data live in your vault files鈥攏ot locked inside a closed reading app. Reading can collaborate in the same context as notes, card-making, and many community plugins. Your data stays fully local in your vault.
 
 It is a reader plugin in the **Obsidian Weave plugin series** (exactly three plugins: Weave Deck, Weave EPUB Reader, and Weave Incremental Reading), built fully for Obsidian and available across Obsidian platforms. Freely supports EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, PDF, and more.
 
 The essential experience covers daily reading, bookshelf management, excerpt summaries, **book data page templates**, and in-body rendering. Premium support adds **library-wide excerpt timelines**, **two-way tracing**, **paragraph reading / immersive fullscreen**, **vocabulary marking and study**, and more.
 
-> Tip: Questions welcome—email tutaoyuan8@outlook.com
+> Tip: Questions welcome鈥攅mail tutaoyuan8@outlook.com
 
 Minimum Obsidian version: **1.8.7**
 
@@ -41,40 +41,40 @@ Minimum Obsidian version: **1.8.7**
 
 | Capability | Essential experience | Premium support |
 |------------|:--------------------:|:---------------:|
-| **All platforms** (desktop / mobile) | ✅ | ✅ |
-| Read **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** | ✅ | ✅ |
-| **My bookshelf**: import, covers, progress, search/filter, reading status | ✅ | ✅ |
-| Bookshelf **multiple views**, **excerpt stats** (excerpts / thoughts / cards) | ✅ | ✅ |
-| **TOC jump**, **dual-page reading**, **single-page continuous scroll**, and other modes | ✅ | ✅ |
-| **Reading typography**: follow Obsidian, **custom body font and size**, publisher styles | ✅ | ✅ |
-| **Reading progress** persistence, bookshelf progress | ✅ | ✅ |
-| **Current-page bookmarks**, bookmark folder, and bookmark list navigation | ✅ | ✅ |
-| **Reading reference points** (record / update / jump) | ✅ | ✅ |
-| **Five highlight colors**, thoughts (`---div---`), excerpts, and **in-body rendering** | ✅ | ✅ |
-| **Underline / strikethrough / wavy underline** styling | ✅ | ✅ |
-| **Auto excerpt** (insert into notes / copy to clipboard) | ✅ | ✅ |
-| **Screenshot excerpts** (can continue across pages) | ✅ | ✅ |
-| Excerpt **card list** (filter, sort, jump to source) | ✅ | ✅ |
-| Excerpt **timeline** (**current book**, browse by day) | ✅ | ✅ |
-| Excerpt **batch select**, export, delete | ✅ | ✅ |
-| **Canvas** binding and automatic node creation | ✅ | ✅ |
-| **Book data page templates** (customize each book's `data_*.md` layout) | ✅ | ✅ |
-| **Excerpt export templates** and built-in presets | ✅ | ✅ |
-| Export **current chapter body** to Markdown | ✅ | ✅ |
-| **Public API** (current chapter / TOC section body, chapter or whole-book excerpt notes, etc.) | ✅ | ✅ |
-| Multilingual UI (Simplified Chinese, Traditional Chinese, English, Japanese, Korean, Russian, German, Spanish, Arabic) and in-app **tutorial** | ✅ | ✅ |
-| **Library-wide excerpt timeline** (cross-book daily review, jump to source) | 🔒 | ✅ |
-| TOC sidebar **book map density bar** | 🔒 | ✅ |
-| TOC **chapter marks** (important / question / mastered, etc.) | 🔒 | ✅ |
-| Bookshelf **playlists** (including set as home) | 🔒 | ✅ |
-| **Two-way tracing** (anchor jumps, notes ↔ book location display) | 🔒 | ✅ |
-| **Reading background glow** | 🔒 | ✅ |
-| **Paragraph reading mode**, immersive fullscreen | 🔒 | ✅ |
-| **Vocabulary marking** (in-text marks, double-click lookup, add to Weave vocabulary) | 🔒 | ✅ |
-| **Advanced Markdown export** (whole-book / chapter excerpt notes, chapters with excerpt marks) | 🔒 | ✅ |
-| Footnote hover preview | 🔒 | ✅ |
+| **All platforms** (desktop / mobile) | 鉁?| 鉁?|
+| Read **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** | 鉁?| 鉁?|
+| **My bookshelf**: import, covers, progress, search/filter, reading status | 鉁?| 鉁?|
+| Bookshelf **multiple views**, **excerpt stats** (excerpts / thoughts / cards) | 鉁?| 鉁?|
+| **TOC jump**, **dual-page reading**, **single-page continuous scroll**, and other modes | 鉁?| 鉁?|
+| **Reading typography**: follow Obsidian, **custom body font and size**, publisher styles | 鉁?| 鉁?|
+| **Reading progress** persistence, bookshelf progress | 鉁?| 鉁?|
+| **Current-page bookmarks**, bookmark folder, and bookmark list navigation | 鉁?| 鉁?|
+| **Reading reference points** (record / update / jump) | 鉁?| 鉁?|
+| **Five highlight colors**, thoughts (`---div---`), excerpts, and **in-body rendering** | 鉁?| 鉁?|
+| **Underline / strikethrough / wavy underline** styling | 鉁?| 鉁?|
+| **Auto excerpt** (insert into notes / copy to clipboard) | 鉁?| 鉁?|
+| **Screenshot excerpts** (can continue across pages) | 鉁?| 鉁?|
+| Excerpt **card list** (filter, sort, jump to source) | 鉁?| 鉁?|
+| Excerpt **timeline** (**current book**, browse by day) | 鉁?| 鉁?|
+| Excerpt **batch select**, export, delete | 鉁?| 鉁?|
+| **Canvas** binding and automatic node creation | 鉁?| 鉁?|
+| **Book data page templates** (customize each book's `data_*.md` layout) | 鉁?| 鉁?|
+| **Excerpt export templates** and built-in presets | 鉁?| 鉁?|
+| Export **current chapter body** to Markdown | 鉁?| 鉁?|
+| **Public API** (current chapter / TOC section body, chapter or whole-book excerpt notes, etc.) | 鉁?| 鉁?|
+| Multilingual UI (Simplified Chinese, Traditional Chinese, English, Japanese, Korean, Russian, German, Spanish, Arabic) and in-app **tutorial** | 鉁?| 鉁?|
+| **Library-wide excerpt timeline** (cross-book daily review, jump to source) | 馃敀 | 鉁?|
+| TOC sidebar **book map density bar** | 馃敀 | 鉁?|
+| TOC **chapter marks** (important / question / mastered, etc.) | 馃敀 | 鉁?|
+| Bookshelf **playlists** (including set as home) | 馃敀 | 鉁?|
+| **Two-way tracing** (anchor jumps, notes 鈫?book location display) | 馃敀 | 鉁?|
+| **Reading background glow** | 馃敀 | 鉁?|
+| **Paragraph reading mode**, immersive fullscreen | 馃敀 | 鉁?|
+| **Vocabulary marking** (in-text marks, double-click lookup, add to Weave vocabulary) | 馃敀 | 鉁?|
+| **Advanced Markdown export** (whole-book / chapter excerpt notes, chapters with excerpt marks) | 馃敀 | 鉁?|
+| Footnote hover preview | 馃敀 | 鉁?|
 
-> Legend: ✅ included · 🔒 requires Premium support
+> Legend: 鉁?included 路 馃敀 requires Premium support
 
 - **Enable Premium support**: Use an EPUB-only activation code in reader settings; if an activated **Weave** main plugin is installed, authorization can be inherited without re-entering a code.
 - **Card making / incremental reading / AI**: Do not consume a separate reader Premium-support license, but require Weave; AI also needs your own API key.
@@ -85,7 +85,7 @@ Activate in reader settings. Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
 
 ### Option 1: Community plugins (recommended)
 
-1. Open **Settings → Community plugins → Browse**
+1. Open **Settings 鈫?Community plugins 鈫?Browse**
 2. Search for **Weave EPUB Reader**, install, and enable
 
 ### Option 2: Manual installation
@@ -95,14 +95,14 @@ Activate in reader settings. Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
    - `manifest.json`
    - `styles.css`
 2. Copy into `.obsidian/plugins/weave-epub-reader/`
-3. Restart Obsidian and enable **Weave EPUB Reader** under **Settings → Community plugins**
+3. Restart Obsidian and enable **Weave EPUB Reader** under **Settings 鈫?Community plugins**
 
 ## Quick start
 
 1. After enabling the plugin, open the **bookshelf** from the ribbon or command palette, then import or open a book from your vault.
-2. Create or open a Markdown file and place the cursor where excerpts should go; turn on **Auto excerpt** in the reader. Select text to create highlights, excerpts, or bookmarks—they are inserted at that cursor.
+2. Create or open a Markdown file and place the cursor where excerpts should go; turn on **Auto excerpt** in the reader. Select text to create highlights, excerpts, or bookmarks鈥攖hey are inserted at that cursor.
 3. Click a highlight in the book to jump to its source note from the toolbar; in the Markdown / Canvas that holds the excerpt, click the book icon next to it to return to the matching passage.
-4. Reader menu → **Help** → **Tutorial** for the in-app short guide; FAQ item 1 covers the excerpt workflow in more detail.
+4. Reader menu 鈫?**Help** 鈫?**Tutorial** for the in-app short guide; FAQ item 1 covers the excerpt workflow in more detail.
 
 ## Data and sync
 
@@ -125,7 +125,7 @@ Excerpts are stored at concrete locations in the Markdown, Canvas, or Weave deck
 
 ### 2. How does this relate to Weave?
 
-**Weave EPUB Reader works on its own**: without the [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) main plugin, you can still read EPUBs, use the bookshelf, and capture excerpts with in-body rendering. With Weave installed, you can also connect spaced-repetition cards, incremental reading calendar, AI actions, and inherit Weave licensing for Premium support. The two are **optional companions**, not a hard dependency.
+**Weave EPUB Reader works on its own**: without the [Weave](https://github.com/zhuzhige123/obsidian---Weave) main plugin, you can still read EPUBs, use the bookshelf, and capture excerpts with in-body rendering. With Weave installed, you can also connect spaced-repetition cards, incremental reading calendar, AI actions, and inherit Weave licensing for Premium support. The two are **optional companions**, not a hard dependency.
 
 ### 3. Does the reader integrate AI?
 
@@ -139,11 +139,11 @@ If you need AI, you can copy content, export the current chapter as an MD file, 
 
 ### 5. Can I export my notes?
 
-**Yes.** Excerpt and highlight data stays in your vault—you can read, edit, and export Markdown in Obsidian, and the reader offers chapter export and related tools. **Data is local by default**; your vault is not uploaded proactively.
+**Yes.** Excerpt and highlight data stays in your vault鈥攜ou can read, edit, and export Markdown in Obsidian, and the reader offers chapter export and related tools. **Data is local by default**; your vault is not uploaded proactively.
 
 ### 6. Why is Premium support paid?
 
-Premium support **funds ongoing development** so the reader and excerpt workflow can keep improving. The **essential experience is free**—daily reading, five highlight colors, thoughts, excerpts, and in-body rendering are fully usable without paying. Enable Premium support only when you want the library-wide excerpt timeline, two-way tracing, paragraph reading mode, and other advanced capabilities.
+Premium support **funds ongoing development** so the reader and excerpt workflow can keep improving. The **essential experience is free**鈥攄aily reading, five highlight colors, thoughts, excerpts, and in-body rendering are fully usable without paying. Enable Premium support only when you want the library-wide excerpt timeline, two-way tracing, paragraph reading mode, and other advanced capabilities.
 
 ### 7. Subscription or one-time purchase?
 
@@ -159,10 +159,10 @@ The reader background **follows the active Obsidian theme**. Install and switch 
 
 ## More documentation
 
-- [Introduction (Simplified Chinese)](#中文文档)
+- [Introduction (Simplified Chinese)](#涓枃鏂囨。)
 - [Introduction (Traditional Chinese)](./README.zh-TW.md)
-- [Español](./README.es.md) · [Français](./README.fr.md) · [العربية](./README.ar.md)
-- [Privacy](./PRIVACY.md) · [Premium support terms](./PREMIUM_TERMS.md) · [Support](./SUPPORT.md) · [Security](./SECURITY.md)
+- [Espa帽ol](./README.es.md) 路 [Fran莽ais](./README.fr.md) 路 [丕賱毓乇亘賷丞](./README.ar.md)
+- [Privacy](./PRIVACY.md) 路 [Premium support terms](./PREMIUM_TERMS.md) 路 [Support](./SUPPORT.md) 路 [Security](./SECURITY.md)
 
 ## License and author
 
@@ -173,152 +173,114 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 
 ---
 
-## 中文文档
+## 涓枃鏂囨。
 
-### 插件介绍
+### 鎻掍欢浠嬬粛
 
-Weave EPUB Reader 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。阅读排版可跟随 Obsidian，摘录与书目数据落在你的库文件中，而不是锁进封闭阅读 App。因而阅读能与笔记、制卡及众多社区插件同一语境协作。数据完全本地化，留在你的库里。
+Weave EPUB Reader 鎶婇槄璇诲祵杩?Obsidian 鐨勭煡璇嗗伐浣滄祦锛氬湪搴撳唴娌夋蹈闃呰澶氭牸寮忕數瀛愪功锛屾憳褰曚笌鎯虫硶鍙啓鍏?Markdown銆丆anvas 鎴?Weave 璁板繂浣撶郴锛屽苟淇濈暀涔︾睄閿氱偣浠ヤ究绗旇涓庡師鏂囦簰鐩歌烦杞€傞槄璇绘帓鐗堝彲璺熼殢 Obsidian锛屾憳褰曚笌涔︾洰鏁版嵁钀藉湪浣犵殑搴撴枃浠朵腑锛岃€屼笉鏄攣杩涘皝闂槄璇?App銆傚洜鑰岄槄璇昏兘涓庣瑪璁般€佸埗鍗″強浼楀绀惧尯鎻掍欢鍚屼竴璇鍗忎綔銆傛暟鎹畬鍏ㄦ湰鍦板寲锛岀暀鍦ㄤ綘鐨勫簱閲屻€?
+瀹冩槸 **Obsidian Weave 鎻掍欢绯诲垪**涓殑闃呰鍣紙绯诲垪鏈変笖浠呮湁涓夋锛歐eave Deck銆乄eave EPUB Reader銆乄eave Incremental Reading锛夛紝瀹屽叏鏈嶅姟浜?Obsidian锛屽苟闅?Obsidian 鍏ㄥ钩鍙颁娇鐢ㄣ€傚厤璐规彁渚?EPUB銆乀XT銆丗B2/FBZ銆丮OBI銆丄ZW3銆丆BZ銆丳DF 绛夊鏍煎紡闃呰涓庡鏍囨敞绫诲瀷鐨勬憳褰曠瑪璁颁綋楠屻€?
+鍩虹浣撻獙瑕嗙洊鏃ュ父闃呰銆佷功鏋剁鐞嗐€佹憳褰曟眹鎬汇€?*涔︾睄鏁版嵁椤垫ā鏉?*涓庢鏂囧洖鏄撅紱楂樼骇鏀寔鍦ㄦ鍩虹涓婃彁渚?*鍏ㄤ功鏋舵憳褰曟椂闂寸嚎**銆?*鍙屽悜婧簮**銆?*娈佃惤闃呰 / 娌夋蹈寮忓叏灞?*銆?*鐢熻瘝鏍囨敞涓庡涔?*绛夎繘闃惰兘鍔涖€?
+> 鎻愮ず锛氳嫢鏈夐棶棰橈紝娆㈣繋閫氳繃閭鍙嶉浜ゆ祦 tutaoyuan8@outlook.com
 
-它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Deck、Weave EPUB Reader、Weave Incremental Reading），完全服务于 Obsidian，并随 Obsidian 全平台使用。免费提供 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等多格式阅读与多标注类型的摘录笔记体验。
-
-基础体验覆盖日常阅读、书架管理、摘录汇总、**书籍数据页模板**与正文回显；高级支持在此基础上提供**全书架摘录时间线**、**双向溯源**、**段落阅读 / 沉浸式全屏**、**生词标注与学习**等进阶能力。
-
-> 提示：若有问题，欢迎通过邮箱反馈交流 tutaoyuan8@outlook.com
-
-最低 Obsidian 版本：**1.8.7**
+鏈€浣?Obsidian 鐗堟湰锛?*1.8.7**
 
 
-## 基础体验与高级支持
-
-| 能力 | 基础体验 | 高级支持 |
+## 鍩虹浣撻獙涓庨珮绾ф敮鎸?
+| 鑳藉姏 | 鍩虹浣撻獙 | 楂樼骇鏀寔 |
 |------|:--------:|:--------:|
-| **全平台**（桌面 / 移动端） | ✅ | ✅ |
-| **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** 阅读 | ✅ | ✅ |
-| **我的书架**：导入、封面、进度、搜索筛选、阅读状态 | ✅ | ✅ |
-| 书架**多视图**展示、**摘录统计**（摘录 / 想法 / 制卡数量） | ✅ | ✅ |
-| **目录跳转**、**双页阅读**、**单页连续滚动**等多种模式 | ✅ | ✅ |
-| **阅读排版**：跟随 Obsidian、**自定义正文字体与字号**、出版商样式 | ✅ | ✅ |
-| **阅读进度**持久化、书架进度 | ✅ | ✅ |
-| **当前页书签**、书签目录与书签列表跳转 | ✅ | ✅ |
-| **参考阅读点**（手动记录 / 更新 / 跳转） | ✅ | ✅ |
-| **五种高亮色**、想法（`---div---`）、摘录与**正文回显** | ✅ | ✅ |
-| **下划线 / 删除线 / 波浪线**等样式标注 | ✅ | ✅ |
-| **自动摘录**（插入笔记 / 复制剪贴板） | ✅ | ✅ |
-| **截图摘录**（可翻页续截） | ✅ | ✅ |
-| 摘录笔记**汇总卡片列表**（筛选、排序、定位原文） | ✅ | ✅ |
-| 摘录笔记**时间线**（**当前书**，按日浏览） | ✅ | ✅ |
-| 摘录**批量选择**、导出、删除 | ✅ | ✅ |
-| **Canvas** 绑定与自动写入节点 | ✅ | ✅ |
-| **书籍数据页模板**（自定义每本书 `data_*.md` 布局） | ✅ | ✅ |
-| **导出笔记模板**与内置预设 | ✅ | ✅ |
-| 导出**当前章正文**为 Markdown | ✅ | ✅ |
-| **公开 API**（当前章 / 指定 TOC 小节正文、本章或全书摘录笔记等） | ✅ | ✅ |
-| 多语言界面（简中、繁中、English、日本語、한국어、Русский、Deutsch、Español、العربية）与应用内**使用教程** | ✅ | ✅ |
-| **全书架摘录时间线**（跨书按日回顾、跳转原文） | 🔒 | ✅ |
-| 目录侧栏**全书地图密度条** | 🔒 | ✅ |
-| 目录**章节标记**（重要 / 疑问 / 已掌握等） | 🔒 | ✅ |
-| 书架**书单**（含设为主页） | 🔒 | ✅ |
-| **双向溯源**（锚点跳转、笔记 ↔ 原书定位显示） | 🔒 | ✅ |
-| **常规阅读透光渐变** | 🔒 | ✅ |
-| **段落阅读模式**、沉浸式全屏 | 🔒 | ✅ |
-| **生词标注**（正文标注、双击查词、加入 Weave 生词本） | 🔒 | ✅ |
-| **高级 Markdown 导出**（全书 / 本章摘录笔记、带摘录标记章节） | 🔒 | ✅ |
-| 脚注浮窗预览 | 🔒 | ✅ |
+| **鍏ㄥ钩鍙?*锛堟闈?/ 绉诲姩绔級 | 鉁?| 鉁?|
+| **EPUB / TXT / FB2 / FBZ / MOBI / AZW3 / CBZ / PDF** 闃呰 | 鉁?| 鉁?|
+| **鎴戠殑涔︽灦**锛氬鍏ャ€佸皝闈€佽繘搴︺€佹悳绱㈢瓫閫夈€侀槄璇荤姸鎬?| 鉁?| 鉁?|
+| 涔︽灦**澶氳鍥?*灞曠ず銆?*鎽樺綍缁熻**锛堟憳褰?/ 鎯虫硶 / 鍒跺崱鏁伴噺锛?| 鉁?| 鉁?|
+| **鐩綍璺宠浆**銆?*鍙岄〉闃呰**銆?*鍗曢〉杩炵画婊氬姩**绛夊绉嶆ā寮?| 鉁?| 鉁?|
+| **闃呰鎺掔増**锛氳窡闅?Obsidian銆?*鑷畾涔夋鏂囧瓧浣撲笌瀛楀彿**銆佸嚭鐗堝晢鏍峰紡 | 鉁?| 鉁?|
+| **闃呰杩涘害**鎸佷箙鍖栥€佷功鏋惰繘搴?| 鉁?| 鉁?|
+| **褰撳墠椤典功绛?*銆佷功绛剧洰褰曚笌涔︾鍒楄〃璺宠浆 | 鉁?| 鉁?|
+| **鍙傝€冮槄璇荤偣**锛堟墜鍔ㄨ褰?/ 鏇存柊 / 璺宠浆锛?| 鉁?| 鉁?|
+| **浜旂楂樹寒鑹?*銆佹兂娉曪紙`---div---`锛夈€佹憳褰曚笌**姝ｆ枃鍥炴樉** | 鉁?| 鉁?|
+| **涓嬪垝绾?/ 鍒犻櫎绾?/ 娉㈡氮绾?*绛夋牱寮忔爣娉?| 鉁?| 鉁?|
+| **鑷姩鎽樺綍**锛堟彃鍏ョ瑪璁?/ 澶嶅埗鍓创鏉匡級 | 鉁?| 鉁?|
+| **鎴浘鎽樺綍**锛堝彲缈婚〉缁埅锛?| 鉁?| 鉁?|
+| 鎽樺綍绗旇**姹囨€诲崱鐗囧垪琛?*锛堢瓫閫夈€佹帓搴忋€佸畾浣嶅師鏂囷級 | 鉁?| 鉁?|
+| 鎽樺綍绗旇**鏃堕棿绾?*锛?*褰撳墠涔?*锛屾寜鏃ユ祻瑙堬級 | 鉁?| 鉁?|
+| 鎽樺綍**鎵归噺閫夋嫨**銆佸鍑恒€佸垹闄?| 鉁?| 鉁?|
+| **Canvas** 缁戝畾涓庤嚜鍔ㄥ啓鍏ヨ妭鐐?| 鉁?| 鉁?|
+| **涔︾睄鏁版嵁椤垫ā鏉?*锛堣嚜瀹氫箟姣忔湰涔?`data_*.md` 甯冨眬锛?| 鉁?| 鉁?|
+| **瀵煎嚭绗旇妯℃澘**涓庡唴缃璁?| 鉁?| 鉁?|
+| 瀵煎嚭**褰撳墠绔犳鏂?*涓?Markdown | 鉁?| 鉁?|
+| **鍏紑 API**锛堝綋鍓嶇珷 / 鎸囧畾 TOC 灏忚妭姝ｆ枃銆佹湰绔犳垨鍏ㄤ功鎽樺綍绗旇绛夛級 | 鉁?| 鉁?|
+| 澶氳瑷€鐣岄潰锛堢畝涓€佺箒涓€丒nglish銆佹棩鏈獮銆來暅甑柎銆佇犙冄佈佇盒感广€丏eutsch銆丒spa帽ol銆佖з勜关必ㄙ娯╋級涓庡簲鐢ㄥ唴**浣跨敤鏁欑▼** | 鉁?| 鉁?|
+| **鍏ㄤ功鏋舵憳褰曟椂闂寸嚎**锛堣法涔︽寜鏃ュ洖椤俱€佽烦杞師鏂囷級 | 馃敀 | 鉁?|
+| 鐩綍渚ф爮**鍏ㄤ功鍦板浘瀵嗗害鏉?* | 馃敀 | 鉁?|
+| 鐩綍**绔犺妭鏍囪**锛堥噸瑕?/ 鐤戦棶 / 宸叉帉鎻＄瓑锛?| 馃敀 | 鉁?|
+| 涔︽灦**涔﹀崟**锛堝惈璁句负涓婚〉锛?| 馃敀 | 鉁?|
+| **鍙屽悜婧簮**锛堥敋鐐硅烦杞€佺瑪璁?鈫?鍘熶功瀹氫綅鏄剧ず锛?| 馃敀 | 鉁?|
+| **甯歌闃呰閫忓厜娓愬彉** | 馃敀 | 鉁?|
+| **娈佃惤闃呰妯″紡**銆佹矇娴稿紡鍏ㄥ睆 | 馃敀 | 鉁?|
+| **鐢熻瘝鏍囨敞**锛堟鏂囨爣娉ㄣ€佸弻鍑绘煡璇嶃€佸姞鍏?Weave 鐢熻瘝鏈級 | 馃敀 | 鉁?|
+| **楂樼骇 Markdown 瀵煎嚭**锛堝叏涔?/ 鏈珷鎽樺綍绗旇銆佸甫鎽樺綍鏍囪绔犺妭锛?| 馃敀 | 鉁?|
+| 鑴氭敞娴獥棰勮 | 馃敀 | 鉁?|
 
-> 图例：✅ 已包含 · 🔒 需启用高级支持
+> 鍥句緥锛氣渽 宸插寘鍚?路 馃敀 闇€鍚敤楂樼骇鏀寔
 
-- **启用高级支持**：在阅读器设置中使用 EPUB 独立激活码；若已安装并激活 **Weave 主插件**，可继承授权而无需重复输入。
-- **制卡 / 增量阅读 / AI**：不单独占用阅读器高级支持许可，但需安装 Weave；AI 另需自行配置 API Key。
+- **鍚敤楂樼骇鏀寔**锛氬湪闃呰鍣ㄨ缃腑浣跨敤 EPUB 鐙珛婵€娲荤爜锛涜嫢宸插畨瑁呭苟婵€娲?**Weave 涓绘彃浠?*锛屽彲缁ф壙鎺堟潈鑰屾棤闇€閲嶅杈撳叆銆?- **鍒跺崱 / 澧為噺闃呰 / AI**锛氫笉鍗曠嫭鍗犵敤闃呰鍣ㄩ珮绾ф敮鎸佽鍙紝浣嗛渶瀹夎 Weave锛汚I 鍙﹂渶鑷閰嶇疆 API Key銆?
+婵€娲诲湪闃呰鍣ㄨ缃腑瀹屾垚锛屾潯娆捐 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)銆?
+## 瀹夎
 
-激活在阅读器设置中完成，条款见 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)。
+### 鏂瑰紡涓€锛氱ぞ鍖烘彃浠讹紙鎺ㄨ崘锛?
+1. 鎵撳紑 **璁剧疆 鈫?绀惧尯鎻掍欢 鈫?娴忚**
+2. 鎼滅储 **Weave EPUB Reader**锛屽畨瑁呭苟鍚敤
 
-## 安装
+### 鏂瑰紡浜岋細鎵嬪姩瀹夎
 
-### 方式一：社区插件（推荐）
-
-1. 打开 **设置 → 社区插件 → 浏览**
-2. 搜索 **Weave EPUB Reader**，安装并启用
-
-### 方式二：手动安装
-
-1. 从 [GitHub Releases](https://github.com/zhuzhige123/obsidian-weave-reader/releases) 下载与 `manifest.json` 版本号一致的发布包，获取：
-   - `main.js`
+1. 浠?[GitHub Releases](https://github.com/zhuzhige123/obsidian-weave-reader/releases) 涓嬭浇涓?`manifest.json` 鐗堟湰鍙蜂竴鑷寸殑鍙戝竷鍖咃紝鑾峰彇锛?   - `main.js`
    - `manifest.json`
    - `styles.css`
-2. 复制到 `.obsidian/plugins/weave-epub-reader/`
-3. 重启 Obsidian，在 **设置 → 社区插件** 中启用 **Weave EPUB Reader**
+2. 澶嶅埗鍒?`.obsidian/plugins/weave-epub-reader/`
+3. 閲嶅惎 Obsidian锛屽湪 **璁剧疆 鈫?绀惧尯鎻掍欢** 涓惎鐢?**Weave EPUB Reader**
 
-## 快速开始
+## 蹇€熷紑濮?
+1. 鍚敤鎻掍欢鍚庯紝閫氳繃鍔熻兘鍖哄浘鏍囨垨鍛戒护闈㈡澘鎵撳紑**涔︽灦**锛屼粠 Vault 瀵煎叆鎴栨墦寮€鍥句功銆?2. 鏂板缓鎴栨墦寮€涓€涓?Markdown 鏂囦欢锛屾妸鍏夋爣鏀惧湪闇€瑕佹彃鍏ユ憳褰曠殑浣嶇疆锛涘惎鐢ㄩ槄璇诲櫒鐨?*鑷姩鎽樺綍**銆傞€変腑鏂囨湰锛屽垱寤洪珮浜€佹憳褰曟垨涔︾锛屽唴瀹逛細鑷姩鍐欏叆璇ヤ綅缃€?3. 鐐瑰嚮姝ｆ枃涓殑楂樹寒锛屽湪宸ュ叿鏉′腑璺宠浆鍒版潵婧愮瑪璁帮紱鍦ㄤ繚瀛樻憳褰曠殑 Markdown / Canvas 涓偣鍑绘憳褰曟梺鐨勪功绫嶅浘鏍囷紝鍗冲彲鍥炲埌涔︿腑瀵瑰簲浣嶇疆銆?4. 闃呰鍣ㄨ彍鍗?鈫?**甯姪** 鈫?**浣跨敤鏁欑▼** 鍙煡鐪嬫彃浠跺唴绮剧畝鏁欑▼锛涘父瑙侀棶棰樼 1 鏉¤ˉ鍏呬簡宸ヤ綔娴佺粏鑺傘€?
+## 鏁版嵁涓庡悓姝?
+**寤鸿鍚屾锛堜綅浜?Vault锛?*锛氬浘涔︽枃浠躲€丮arkdown 鎽樺綍銆丆anvas銆乄eave 鐗岀粍鏁版嵁锛屼互鍙婃瘡鏈功鐨勮繘搴︿笌涔︾涓撴湁绗旇锛堥粯璁?`Weave EPUB Reader/data_*.md`锛夈€?
+**閫氬父涓嶉渶璺ㄨ澶囧悓姝ワ紙浣嶄簬鎻掍欢鐩綍锛?*锛氶槄璇荤紦瀛樸€佺储寮曘€丆anvas 缁戝畾涓庡弬鑰冮槄璇荤偣绛夋湰鍦扮姸鎬併€傚璁惧浣跨敤鏃朵紭鍏堝悓姝?Vault 鍐呭锛岃€岄潪鐩存帴鍚屾 `.obsidian/plugins/weave-epub-reader/` 涓嬬殑缂撳瓨鏂囦欢銆?
+## 闅愮涓庣綉缁?
+- 闃呰銆佹覆鏌撱€佹憳褰曚笌鍥為摼绛?*榛樿鍦ㄦ湰鍦板畬鎴?*锛屼笉浼氫富鍔ㄤ笂浼?Vault 鍐呭銆?- 涔︽灦銆佸洖閾句笌鏉ユ簮瀹氫綅绛夊姛鑳戒細鍦ㄦ湰鍦版灇涓?Vault 鏂囦欢璺緞锛涘鍒舵憳褰曟垨婵€娲荤爜鏃朵細璁块棶鍓创鏉裤€傝瑙?[PRIVACY.md](./PRIVACY.md)銆?- **楂樼骇鏀寔婵€娲?*鍙兘璁块棶璁稿彲璇佹湇鍔★紙婵€娲荤爜銆侀偖绠便€佽澶囨寚绾规憳瑕佺瓑锛夛紝璇﹁ [PRIVACY.md](./PRIVACY.md)銆?- 鑻ラ€氳繃 **Weave 涓绘彃浠?*浣跨敤 AI 鑿滃崟锛屼細璋冪敤浣犺嚜琛岄厤缃殑绗笁鏂规湇鍔★紱**闃呰鍣ㄦ湰韬笉鎻愪緵 AI 鍔熻兘**锛堣甯歌闂绗?3 鏉★級銆?
+## 甯歌闂
 
-1. 启用插件后，通过功能区图标或命令面板打开**书架**，从 Vault 导入或打开图书。
-2. 新建或打开一个 Markdown 文件，把光标放在需要插入摘录的位置；启用阅读器的**自动摘录**。选中文本，创建高亮、摘录或书签，内容会自动写入该位置。
-3. 点击正文中的高亮，在工具条中跳转到来源笔记；在保存摘录的 Markdown / Canvas 中点击摘录旁的书籍图标，即可回到书中对应位置。
-4. 阅读器菜单 → **帮助** → **使用教程** 可查看插件内精简教程；常见问题第 1 条补充了工作流细节。
+### 1. 濡備綍姝ｇ‘鐨勫仛闃呰鎽樺綍绗旇锛?
+闃呰鎽樺綍绗旇淇濆瓨鍦ㄤ綘閫夋嫨鐨?Markdown銆丆anvas锛屼互鍙?Weave 鐗岀粍鏂囦欢涓殑鍏蜂綋浣嶇疆锛涢槄璇诲櫒閫氳繃姹囨€昏繖浜涙憳褰曚腑鐨勬函婧愰摼鎺ワ紝鍦ㄦ鏂囦腑鍥炴樉楂樹寒銆傝嫢涓嶆弧瓒充笂杩颁繚瀛樻潯浠讹紝閫変腑鎽樺綍鍙細鐭殏楂樹寒锛屼笉浼氱暀涓嬪彲鍚屾鐨勫疄璐ㄦ暟鎹€傞槄璇诲櫒椤堕儴鐨勬暀绋嬫诞绐楁湁鏇磋缁嗙殑璇存槑銆?
+### 2. 涓?Weave 鐨勫叧绯伙紵
 
-## 数据与同步
+**Weave EPUB Reader 鍙嫭绔嬩娇鐢?*锛氫笉瀹夎 [Weave](https://github.com/zhuzhige123/obsidian---Weave) 涓绘彃浠讹紝涔熻兘鍦?Obsidian 閲岄槄璇?EPUB銆佺鐞嗕功鏋讹紝骞跺畬鎴愬熀纭€鎽樺綍涓庢鏂囧洖鏄俱€傚畨瑁?Weave 鍚庯紝鍙澶栬鎺ュ埗鍗″涔犮€佸閲忛槄璇绘湀鍘嗐€丄I 鑿滃崟绛夎兘鍔涳紝骞跺彲缁ф壙 Weave 鎺堟潈浠ュ惎鐢ㄩ槄璇诲櫒楂樼骇鏀寔銆備簩鑰呮槸**鍙€夎仈鍔?*锛屼笉鏄‖鎬т緷璧栥€?
+### 3. 鏄惁闆嗘垚 AI锛?
+鐜伴樁娈碉紝骞朵笉鑰冭檻鍦ㄩ槄璇诲櫒鎻掍欢涓泦鎴?AI 鑳藉姏銆傛効鏅槸鍦?Obsidian 涓负浣犳彁渚涘共鍑€銆佹矇娴稿紡鐨勯槄璇荤幆澧冿紝娴佺晠鑷劧鐨勫姛鑳戒氦浜掕璁★紝浠ュ強鑸掗€傜殑鏂囨湰缂栬緫浣撻獙銆傛棤鎰忎簬閫氳繃 AI 婊¤冻鑷姩瑙ｆ瀽銆佹€荤粨鎴栧璇濆紡杈呰绛夊姛鑳介渶姹傘€傚鏁版儏鍐典笅璇ュ疄鐜板彲鑳芥墦涔变綘鐨勯槄璇昏妭濂忥紝鍒嗘暎闃呰涓撴敞锛屽奖鍝嶉槄璇昏繃绋嬩腑鐨勬繁搴︽€濊€冦€?
+濡傛湁闇€瑕侊紝鍙鍒跺唴瀹广€佸鍑哄綋鍓嶇珷鑺備负 MD 鏂囦欢锛屾垨閫氳繃鎻掍欢鎻愪緵鐨?API 鍔熻兘鑾峰彇绔犺妭鍐呭銆佹憳褰曠瑪璁扮瓑锛屽崗鍚屽叾瀹冨叿鏈?AI 鑳藉姏鐨勬彃浠朵娇鐢紝瀹炵幇鍚勭鑷姩鑷畾涔夌殑鍐呭銆傝€?API 鍔熻兘姝ｆ槸涓烘鑰岃璁＄殑銆?
+### 4. 鎽樺綍绗旇鑳藉惁鍏ㄥ钩鍙板悓姝ワ紵
 
-**建议同步（位于 Vault）**：图书文件、Markdown 摘录、Canvas、Weave 牌组数据，以及每本书的进度与书签专有笔记（默认 `Weave EPUB Reader/data_*.md`）。
+**鏀寔銆?* 鎽樺綍钀藉湪 Vault 鍐呯殑 Markdown銆丆anvas銆佺墝缁勭瓑鏂囦欢涓紝浼氶殢浣犱娇鐢ㄧ殑 Obsidian 鍚屾鏂瑰紡锛堝畼鏂?Sync銆乮Cloud銆佺綉鐩樺悓姝?Vault 绛夛級鍦ㄦ闈㈢涓庣Щ鍔ㄧ涔嬮棿淇濇寔涓€鑷淬€傚缓璁悓姝?Vault 鍐呭锛涢槄璇诲櫒缂撳瓨绛夋彃浠剁洰褰曟暟鎹€氬父鏃犻渶璺ㄨ澶囧悓姝ワ紙瑙佷笂鏂?[鏁版嵁涓庡悓姝(#鏁版嵁涓庡悓姝?锛夈€?
+### 5. 鏄惁鏀寔瀵煎嚭绗旇锛?
+**鏀寔銆?* 鎽樺綍涓庨珮浜浉鍏虫暟鎹繚瀛樺湪浣犵殑搴撳唴锛屽彲鍦?Obsidian 涓洿鎺ユ煡鐪嬨€佺紪杈戜笌瀵煎嚭 Markdown锛涢槄璇诲櫒涔熸彁渚涚珷鑺傚鍑虹瓑鑳藉姏銆?*鏁版嵁榛樿瀹屽叏鏈湴鍖?*锛屼笉浼氫富鍔ㄤ笂浼犱綘鐨?Vault 鍐呭銆?
+### 6. 涓轰綍鎻愪緵楂樼骇浠樿垂锛?
+楂樼骇鏀寔鐢ㄤ簬**鏀寔鎸佺画寮€鍙?*鈥斺€旇寮€鍙戣€呰兘闀挎湡鎶曞叆銆佹墦纾ㄩ槄璇讳笌鎽樺綍缁嗚妭銆?*鍩虹浣撻獙鍏嶈垂**锛屽凡瑕嗙洊鏃ュ父闃呰銆佷簲鑹查珮浜€佹兂娉曘€佹憳褰曚笌姝ｆ枃鍥炴樉绛夋牳蹇冭兘鍔涳紝涓婃墜浣撻獙瀹屾暣锛涜嫢浣犻渶瑕佸叏涔︽灦鎽樺綍鏃堕棿绾裤€佸弻鍚戞函婧愩€佹钀介槄璇绘ā寮忕瓑杩涢樁鑳藉姏锛屽啀鎸夐渶鍚敤楂樼骇鏀寔鍗冲彲銆?
+### 7. 鏄闃呰繕鏄拱鏂紵
 
-**通常不需跨设备同步（位于插件目录）**：阅读缓存、索引、Canvas 绑定与参考阅读点等本地状态。多设备使用时优先同步 Vault 内容，而非直接同步 `.obsidian/plugins/weave-epub-reader/` 下的缓存文件。
+闃呰鍣ㄩ珮绾ф敮鎸侀噰鐢?*涔版柇鍒?*锛堜竴娆℃縺娲伙紝闀挎湡浣跨敤锛屽叿浣撲互 [楂樼骇鏀寔鏉℃](./PREMIUM_TERMS.md) 涓哄噯锛夛紝鑰岄潪鎸夋湀璁㈤槄銆?
+### 8. 濡備綍璋冩暣瀛椾綋涓庡瓧鍙凤紵
 
-## 隐私与网络
+榛樿**璺熼殢 Obsidian 澶栬**涓殑姝ｆ枃瀛椾綋涓庡瓧鍙枫€傚湪闃呰鍣ㄨ彍鍗曟墦寮€**鎺掔増璁剧疆**锛屽惎鐢ㄣ€?*鑷畾涔夋鏂囧瓧浣撲笌瀛楀彿**銆嶅悗锛屽彲閫夋嫨棰勮瀛椾綋骞惰皟鑺傚瓧鍙凤紙鐩稿 Obsidian 鍩哄噯鐨勭櫨鍒嗘瘮锛夈€傝嫢寮€鍚€?*鍑虹増鍟嗘牱寮?*銆嶏紝鍒欐部鐢?EPUB 鍘熶功瀛椾綋銆?
+### 9. 濡備綍鏇存崲鑳屾櫙鑹诧紵
 
-- 阅读、渲染、摘录与回链等**默认在本地完成**，不会主动上传 Vault 内容。
-- 书架、回链与来源定位等功能会在本地枚举 Vault 文件路径；复制摘录或激活码时会访问剪贴板。详见 [PRIVACY.md](./PRIVACY.md)。
-- **高级支持激活**可能访问许可证服务（激活码、邮箱、设备指纹摘要等），详见 [PRIVACY.md](./PRIVACY.md)。
-- 若通过 **Weave 主插件**使用 AI 菜单，会调用你自行配置的第三方服务；**阅读器本身不提供 AI 功能**（见常见问题第 3 条）。
+闃呰鍣ㄨ儗鏅壊**闅忓綋鍓?Obsidian 涓婚鑷姩閫傞厤**銆傚畨瑁呭苟鍒囨崲涓嶅悓涓婚鍗冲彲锛屾彃浠朵笉浼氬崟鐙缃儗鏅壊銆?
 
-## 常见问题
+## 鏇村鏂囨。
 
-### 1. 如何正确的做阅读摘录笔记？
+- [鎻掍欢浠嬬粛锛堢畝浣撲腑鏂囷級](#涓枃鏂囨。)
+- [鎻掍欢浠嬬粛锛堢箒楂斾腑鏂囷級](./README.zh-TW.md)
+- [Espa帽ol](./README.es.md) 路 [Fran莽ais](./README.fr.md) 路 [丕賱毓乇亘賷丞](./README.ar.md)
+- [闅愮璇存槑](./PRIVACY.md) 路 [楂樼骇鏀寔鏉℃](./PREMIUM_TERMS.md) 路 [鏀寔](./SUPPORT.md) 路 [瀹夊叏](./SECURITY.md)
 
-阅读摘录笔记保存在你选择的 Markdown、Canvas，以及 Weave 牌组文件中的具体位置；阅读器通过汇总这些摘录中的溯源链接，在正文中回显高亮。若不满足上述保存条件，选中摘录只会短暂高亮，不会留下可同步的实质数据。阅读器顶部的教程浮窗有更详细的说明。
-
-### 2. 与 Weave 的关系？
-
-**Weave EPUB Reader 可独立使用**：不安装 [Weave](https://github.com/zhuzhige123/anki-obsidian-plugin) 主插件，也能在 Obsidian 里阅读 EPUB、管理书架，并完成基础摘录与正文回显。安装 Weave 后，可额外衔接制卡复习、增量阅读月历、AI 菜单等能力，并可继承 Weave 授权以启用阅读器高级支持。二者是**可选联动**，不是硬性依赖。
-
-### 3. 是否集成 AI？
-
-现阶段，并不考虑在阅读器插件中集成 AI 能力。愿景是在 Obsidian 中为你提供干净、沉浸式的阅读环境，流畅自然的功能交互设计，以及舒适的文本编辑体验。无意于通过 AI 满足自动解析、总结或对话式辅读等功能需求。多数情况下该实现可能打乱你的阅读节奏，分散阅读专注，影响阅读过程中的深度思考。
-
-如有需要，可复制内容、导出当前章节为 MD 文件，或通过插件提供的 API 功能获取章节内容、摘录笔记等，协同其它具有 AI 能力的插件使用，实现各种自动自定义的内容。而 API 功能正是为此而设计的。
-
-### 4. 摘录笔记能否全平台同步？
-
-**支持。** 摘录落在 Vault 内的 Markdown、Canvas、牌组等文件中，会随你使用的 Obsidian 同步方式（官方 Sync、iCloud、网盘同步 Vault 等）在桌面端与移动端之间保持一致。建议同步 Vault 内容；阅读器缓存等插件目录数据通常无需跨设备同步（见上文 [数据与同步](#数据与同步)）。
-
-### 5. 是否支持导出笔记？
-
-**支持。** 摘录与高亮相关数据保存在你的库内，可在 Obsidian 中直接查看、编辑与导出 Markdown；阅读器也提供章节导出等能力。**数据默认完全本地化**，不会主动上传你的 Vault 内容。
-
-### 6. 为何提供高级付费？
-
-高级支持用于**支持持续开发**——让开发者能长期投入、打磨阅读与摘录细节。**基础体验免费**，已覆盖日常阅读、五色高亮、想法、摘录与正文回显等核心能力，上手体验完整；若你需要全书架摘录时间线、双向溯源、段落阅读模式等进阶能力，再按需启用高级支持即可。
-
-### 7. 是订阅还是买断？
-
-阅读器高级支持采用**买断制**（一次激活，长期使用，具体以 [高级支持条款](./PREMIUM_TERMS.md) 为准），而非按月订阅。
-
-### 8. 如何调整字体与字号？
-
-默认**跟随 Obsidian 外观**中的正文字体与字号。在阅读器菜单打开**排版设置**，启用「**自定义正文字体与字号**」后，可选择预设字体并调节字号（相对 Obsidian 基准的百分比）。若开启「**出版商样式**」，则沿用 EPUB 原书字体。
-
-### 9. 如何更换背景色？
-
-阅读器背景色**随当前 Obsidian 主题自动适配**。安装并切换不同主题即可，插件不会单独设置背景色。
-
-
-## 更多文档
-
-- [插件介绍（简体中文）](#中文文档)
-- [插件介绍（繁體中文）](./README.zh-TW.md)
-- [Español](./README.es.md) · [Français](./README.fr.md) · [العربية](./README.ar.md)
-- [隐私说明](./PRIVACY.md) · [高级支持条款](./PREMIUM_TERMS.md) · [支持](./SUPPORT.md) · [安全](./SECURITY.md)
-
-## 许可证与作者
-
-源码基于 [GPL-3.0-or-later](LICENSE) 发布。
-
+## 璁稿彲璇佷笌浣滆€?
+婧愮爜鍩轰簬 [GPL-3.0-or-later](LICENSE) 鍙戝竷銆?
 - Author: Rabbit (zhuzhige)
 - GitHub: https://github.com/zhuzhige123
