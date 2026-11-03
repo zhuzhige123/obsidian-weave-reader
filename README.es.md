@@ -1,4 +1,4 @@
-# Weave EPUB Reader（Español）
+# Weave Reader（Español）
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Español](./README.es.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

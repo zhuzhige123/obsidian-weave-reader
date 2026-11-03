@@ -1,4 +1,4 @@
-# Weave EPUB Reader（한국어）
+# Weave Reader（한국어）
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [한국어](./README.ko.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

@@ -1,4 +1,4 @@
-# Weave EPUB Reader
+# Weave Reader
 
 [简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
@@ -30,7 +30,7 @@
 
 ### Overview
 
-**Weave EPUB Reader** embeds reading into Obsidian’s knowledge workflow: immerse yourself in multi-format ebooks inside your vault; excerpts and thoughts can go into Markdown, Canvas, or the Weave memory system, with book anchors so notes and source text jump to each other. Typography can follow Obsidian; excerpt and bookshelf data live in your vault files—not locked inside a closed reading app.
+**Weave Reader** embeds reading into Obsidian’s knowledge workflow: immerse yourself in multi-format ebooks inside your vault; excerpts and thoughts can go into Markdown, Canvas, or the Weave memory system, with book anchors so notes and source text jump to each other. Typography can follow Obsidian; excerpt and bookshelf data live in your vault files—not locked inside a closed reading app.
 
 | Concept | Meaning |
 |---------|---------|
@@ -38,7 +38,7 @@
 | **Excerpt** | Highlights, thoughts, and notes saved into Markdown / Canvas / decks with book anchors |
 | **Trace** | Jump between the book passage and the note that holds the excerpt |
 
-It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: Weave Deck, Weave EPUB Reader, and Weave Incremental Reading). It works **standalone**—Weave Deck is optional.
+It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: Weave Deck, Weave Reader, and Weave Incremental Reading). It works **standalone**—Weave Deck is optional.
 
 Minimum Obsidian version: **1.8.7**. Desktop and mobile are supported.
 
@@ -131,7 +131,7 @@ See: [Paragraph & immersive](https://obsidian-weave.xyz/tutorials.html#reader-pa
 #### Option 1: Community plugins (recommended)
 
 1. Open **Settings → Community plugins → Browse**
-2. Search for **Weave EPUB Reader**, install, and enable
+2. Search for **Weave Reader**, install, and enable
 
 #### Option 2: Manual installation
 
@@ -140,7 +140,7 @@ See: [Paragraph & immersive](https://obsidian-weave.xyz/tutorials.html#reader-pa
    - `manifest.json`
    - `styles.css`
 2. Copy into `.obsidian/plugins/weave-epub-reader/`
-3. Restart Obsidian and enable **Weave EPUB Reader**
+3. Restart Obsidian and enable **Weave Reader**
 
 | Item | Requirement |
 |------|-------------|
@@ -180,7 +180,7 @@ Exactly three Weave plugins, composing **read → capture → schedule → revie
 
 | Plugin | Responsibility |
 |--------|----------------|
-| **Weave EPUB Reader** (this plugin) | In-vault multi-format reading, excerpts, book anchors |
+| **Weave Reader** (this plugin) | In-vault multi-format reading, excerpts, book anchors |
 | **Weave Deck** | Memory decks, card-making, FSRS review, exams |
 | **Weave Incremental Reading** | Reading points, topics, calendar scheduling, resume |
 
@@ -254,7 +254,7 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 
 ### 插件概述
 
-**Weave EPUB Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
+**Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
 | 概念 | 说明 |
 |------|------|
@@ -262,7 +262,7 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 | **摘录** | 高亮、想法与笔记写入 Markdown / Canvas / 牌组，并带书籍锚点 |
 | **溯源** | 在书中段落与摘录笔记之间互相跳转 |
 
-它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Deck、Weave EPUB Reader、Weave Incremental Reading），**可独立使用**，不强制安装 Weave Deck。
+它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Deck、Weave Reader、Weave Incremental Reading），**可独立使用**，不强制安装 Weave Deck。
 
 最低 Obsidian 版本：**1.8.7**。桌面端与移动端均可用。
 
@@ -355,7 +355,7 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 #### 方式一：社区插件（推荐）
 
 1. 打开 **设置 → 社区插件 → 浏览**
-2. 搜索 **Weave EPUB Reader**，安装并启用
+2. 搜索 **Weave Reader**，安装并启用
 
 #### 方式二：手动安装
 
@@ -364,7 +364,7 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
    - `manifest.json`
    - `styles.css`
 2. 复制到 `.obsidian/plugins/weave-epub-reader/`
-3. 重启 Obsidian 并启用 **Weave EPUB Reader**
+3. 重启 Obsidian 并启用 **Weave Reader**
 
 | 项目 | 要求 |
 |------|------|
@@ -404,7 +404,7 @@ Source code is released under [GPL-3.0-or-later](LICENSE).
 
 | 插件 | 职责 |
 |------|------|
-| **Weave EPUB Reader**（本插件） | 库内多格式阅读、摘录、书籍锚点 |
+| **Weave Reader**（本插件） | 库内多格式阅读、摘录、书籍锚点 |
 | **Weave Deck** | 记忆牌组、制卡、FSRS 复习、考试 |
 | **Weave Incremental Reading** | 阅读点、专题、日历调度、续读 |
 
