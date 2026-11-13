@@ -48,7 +48,7 @@
 
 ### 基础体验与高级支持
 
-日常阅读、书架、摘录、**书籍数据页模板**、正文回显与**双向溯源**均**免费可用**。高级支持解锁跨书回顾、段落阅读等进阶能力。
+日常阅读、书架、摘录、**书籍数据页模板**、标注块正文回显与**双向溯源**均**免费可用**。高级支持解锁活动热力、番茄计时、跨书时间线、段落阅读等进阶能力。
 
 | 类别 | 能力 | 基础体验 | 高级支持 |
 | --- | --- | :---: | :---: |
@@ -61,7 +61,8 @@
 | **书架** | 我的书架：导入、封面、进度、搜索筛选、阅读状态 | ✅ | ✅ |
 | | 书架多视图、摘录统计（摘录 / 想法 / 制卡数量） | ✅ | ✅ |
 | | 书架书单（含设为主页） | 🔒 | ✅ |
-| **标注与摘录** | 五种高亮色、想法（`---div---`）、摘录与正文回显 | ✅ | ✅ |
+| | 书架活动热力（近一年贡献日历：阅读 / 摘录 / 番茄） | 🔒 | ✅ |
+| **标注与摘录** | 五种高亮色、想法（`---div---`）、摘录与标注块正文回显 | ✅ | ✅ |
 | | 下划线 / 删除线 / 波浪线等样式标注 | ✅ | ✅ |
 | | 自动摘录（插入笔记 / 复制剪贴板） | ✅ | ✅ |
 | | 截图摘录（可翻页续截） | ✅ | ✅ |
@@ -70,6 +71,7 @@
 | | 摘录批量选择、导出、删除 | ✅ | ✅ |
 | | 双向溯源（锚点跳转、笔记 ↔ 原书定位显示） | ✅ | ✅ |
 | | 脚注浮窗预览 | ✅ | ✅ |
+| | 行内摘录回显（颜色 emoji + 溯源链接在正文回显高亮） | 🔒 | ✅ |
 | | 全书架摘录时间线（跨书按日回顾、跳转原文） | 🔒 | ✅ |
 | **导航** | 当前页书签、书签目录与书签列表跳转 | ✅ | ✅ |
 | | 参考阅读点（手动记录 / 更新 / 跳转） | ✅ | ✅ |
@@ -78,6 +80,7 @@
 | **进阶阅读** | 常规阅读透光渐变 | 🔒 | ✅ |
 | | 段落阅读模式、沉浸式全屏 | 🔒 | ✅ |
 | | 生词标注（正文标注、双击查词、加入 Weave 生词本） | 🔒 | ✅ |
+| | 番茄专注计时（按真实阅读时长累计，阅读器内显示番茄统计） | 🔒 | ✅ |
 | **导出与 API** | 书籍数据页模板（自定义每本书 `data_*.md` 布局） | ✅ | ✅ |
 | | 导出笔记模板与内置预设 | ✅ | ✅ |
 | | 导出当前章正文为 Markdown | ✅ | ✅ |
@@ -96,7 +99,7 @@
 
 #### 书架与格式
 
-通过功能区或命令打开**我的书架**，导入库内图书，管理封面、进度与筛选。免费支持 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等。
+通过功能区或命令打开**我的书架**，导入库内图书，管理封面、进度与筛选。免费支持 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等。高级支持可开启**活动热力日历**（阅读 / 摘录 / 番茄）与书架书单。
 
 详见：[安装与打开书架](https://obsidian-weave.xyz/tutorials.html#reader-install-shelf)。
 
@@ -108,7 +111,7 @@
 
 #### 摘录与高亮
 
-五色高亮、想法、自动摘录、截图摘录、卡片列表与**当前书**时间线。摘录须写入 Markdown、Canvas 或牌组，才会留下可同步数据与正文回显。
+五色高亮、想法、自动摘录、截图摘录、卡片列表与**当前书**时间线。摘录须写入 Markdown、Canvas 或牌组，才会留下可同步数据与标注块正文回显。高级支持另提供**行内摘录回显**（颜色 emoji + 溯源链接）与全书架时间线。
 
 详见：[摘录工作流](https://obsidian-weave.xyz/tutorials.html#reader-excerpt-workflow)。
 
@@ -120,7 +123,7 @@
 
 #### 进阶阅读（高级）
 
-段落阅读 / 沉浸全屏、生词标注、透光渐变、书架书单与高级 Markdown 导出。
+段落阅读 / 沉浸全屏、生词标注、透光渐变、番茄专注计时、书架书单、活动热力日历与高级 Markdown 导出。
 
 详见：[段落与沉浸](https://obsidian-weave.xyz/tutorials.html#reader-paragraph-immersive)。
 
@@ -272,7 +275,7 @@ Tutorials: [EPUB Reader tutorials](https://obsidian-weave.xyz/tutorials.html#rea
 
 ### Essential experience and Premium support
 
-Daily reading, bookshelf, excerpts, **book data page templates**, in-body rendering, and **two-way tracing** are **free**. Premium unlocks advanced review and immersion tools.
+Daily reading, bookshelf, excerpts, **book data page templates**, callout-block in-body echo, and **two-way tracing** are **free**. Premium unlocks the activity heatmap, focus timer, library timeline, paragraph reading, and other advanced tools.
 
 | Category | Capability | Essential | Premium |
 | --- | --- | :---: | :---: |
@@ -285,7 +288,8 @@ Daily reading, bookshelf, excerpts, **book data page templates**, in-body render
 | **Bookshelf** | My bookshelf: import, covers, progress, search/filter, reading status | ✅ | ✅ |
 | | Bookshelf multiple views, excerpt stats (excerpts / thoughts / cards) | ✅ | ✅ |
 | | Bookshelf playlists (including set as home) | 🔒 | ✅ |
-| **Annotations & excerpts** | Five highlight colors, thoughts (`---div---`), excerpts, and in-body rendering | ✅ | ✅ |
+| | Bookshelf activity heatmap (year calendar: reading / excerpts / focus tomatoes) | 🔒 | ✅ |
+| **Annotations & excerpts** | Five highlight colors, thoughts (`---div---`), excerpts, and callout-block in-body echo | ✅ | ✅ |
 | | Underline / strikethrough / wavy underline styling | ✅ | ✅ |
 | | Auto excerpt (insert into notes / copy to clipboard) | ✅ | ✅ |
 | | Screenshot excerpts (can continue across pages) | ✅ | ✅ |
@@ -294,6 +298,7 @@ Daily reading, bookshelf, excerpts, **book data page templates**, in-body render
 | | Excerpt batch select, export, delete | ✅ | ✅ |
 | | Two-way tracing (anchor jumps, notes ↔ book location display) | ✅ | ✅ |
 | | Footnote hover preview | ✅ | ✅ |
+| | Inline excerpt echo (color emoji + source link paints highlights in the body) | 🔒 | ✅ |
 | | Library-wide excerpt timeline (cross-book daily review, jump to source) | 🔒 | ✅ |
 | **Navigation** | Current-page bookmarks, bookmark folder, and bookmark list navigation | ✅ | ✅ |
 | | Reading reference points (record / update / jump) | ✅ | ✅ |
@@ -302,6 +307,7 @@ Daily reading, bookshelf, excerpts, **book data page templates**, in-body render
 | **Advanced reading** | Reading background glow | 🔒 | ✅ |
 | | Paragraph reading mode, immersive fullscreen | 🔒 | ✅ |
 | | Vocabulary marking (in-text marks, double-click lookup, add to Weave vocabulary) | 🔒 | ✅ |
+| | Pomodoro focus timer (accumulate real reading time; tomato stats in the reader) | 🔒 | ✅ |
 | **Export & API** | Book data page templates (customize each book’s `data_*.md` layout) | ✅ | ✅ |
 | | Excerpt export templates and built-in presets | ✅ | ✅ |
 | | Export current chapter body to Markdown | ✅ | ✅ |
@@ -320,7 +326,7 @@ Daily reading, bookshelf, excerpts, **book data page templates**, in-body render
 
 #### Bookshelf and formats
 
-Open **My bookshelf** from the ribbon or command palette. Import vault books, browse covers and progress, search/filter, and track reading status. Free formats include EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, and PDF.
+Open **My bookshelf** from the ribbon or command palette. Import vault books, browse covers and progress, search/filter, and track reading status. Free formats include EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, and PDF. Premium adds the **activity heatmap** calendar (reading / excerpts / focus tomatoes) and bookshelf playlists.
 
 See: [Install & bookshelf](https://obsidian-weave.xyz/tutorials.html#reader-install-shelf).
 
@@ -332,7 +338,7 @@ See: [UI & modes](https://obsidian-weave.xyz/tutorials.html#reader-ui-modes).
 
 #### Excerpts and highlights
 
-Five highlight colors, thoughts, auto excerpt, screenshot excerpt, card list, and **current-book** timeline. Excerpts must be saved into Markdown, Canvas, or Weave decks to leave durable data and in-body rendering.
+Five highlight colors, thoughts, auto excerpt, screenshot excerpt, card list, and **current-book** timeline. Excerpts must be saved into Markdown, Canvas, or Weave decks to leave durable data and callout-block in-body echo. Premium also adds **inline excerpt echo** (color emoji + source link) and the library-wide timeline.
 
 See: [Excerpt workflow](https://obsidian-weave.xyz/tutorials.html#reader-excerpt-workflow).
 
@@ -344,7 +350,7 @@ See: [Two-way tracing](https://obsidian-weave.xyz/tutorials.html#reader-bidirect
 
 #### Advanced reading (Premium)
 
-Paragraph reading / immersive fullscreen, vocabulary marking, background glow, bookshelf playlists, and advanced Markdown export.
+Paragraph reading / immersive fullscreen, vocabulary marking, background glow, Pomodoro focus timer, bookshelf playlists, activity heatmap, and advanced Markdown export.
 
 See: [Paragraph & immersive](https://obsidian-weave.xyz/tutorials.html#reader-paragraph-immersive).
 
