@@ -1,12 +1,17 @@
 # Weave Reader
 
-[简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
+**Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
+
+**文档语言：** [简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
+
+| 渠道 | 链接 |
+|------|------|
+| QQ 公开群 | [点击链接加入群聊【Obsidan-Weave系列 反馈群】](https://qm.qq.com/q/TNnSmywgeW) |
+| Discord | [Obsidian-Weave 反馈频道](https://discord.com/channels/1553861810665554023/1553867320311677039) |
+| 官方正式教程视频 | [Bilibili · Weave Reader 教程](https://www.bilibili.com/video/BV1Zcs56NE9C/) |
+| 官网与图文教程 | [官网 · 价格](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome) |
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/简体中文-2d333b?style=flat-square" alt="简体中文" /> <img src="https://img.shields.io/badge/繁體中文-2d333b?style=flat-square" alt="繁體中文" /> <img src="https://img.shields.io/badge/English-2d333b?style=flat-square" alt="English" /> <img src="https://img.shields.io/badge/日本語-2d333b?style=flat-square" alt="日本語" /> <img src="https://img.shields.io/badge/한국어-2d333b?style=flat-square" alt="한국어" /> <img src="https://img.shields.io/badge/Русский-2d333b?style=flat-square" alt="Русский" /> <img src="https://img.shields.io/badge/Deutsch-2d333b?style=flat-square" alt="Deutsch" /> <img src="https://img.shields.io/badge/Español-2d333b?style=flat-square" alt="Español" /> <img src="https://img.shields.io/badge/العربية-2d333b?style=flat-square" alt="العربية" /> <img src="https://img.shields.io/badge/其它语言_后续支持-6b7280?style=flat-square" alt="其它语言后续支持" />
-
-<br/>
 
 ![weave-series-banner-trinity](https://github.com/user-attachments/assets/0df853a2-9f27-4ad9-a048-b4a0c9ab716c)
 
@@ -22,6 +27,10 @@
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
 
+<br/>
+
+[![序章｜Weave Reader 官方系列教程](https://i2.hdslb.com/bfs/archive/34dd29f15e73487ff8cc51a7eee4836367cbaf39.jpg)](https://www.bilibili.com/video/BV1Zcs56NE9C/)
+
 </div>
 
 ---
@@ -29,8 +38,6 @@
 ## 中文文档
 
 ### 插件概述
-
-**Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
 | 概念 | 说明 |
 |------|------|
@@ -42,7 +49,7 @@
 
 最低 Obsidian 版本：**1.8.7**。桌面端与移动端均可用。
 
-完整教程见官网：[EPUB Reader 教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)。价格见 [官网 · 价格](https://obsidian-weave.xyz/#pricing)。
+社区、官方视频与官网图文教程见文首渠道表。
 
 ---
 
@@ -269,7 +276,7 @@ It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: W
 
 Minimum Obsidian version: **1.8.7**. Desktop and mobile are supported.
 
-Tutorials: [EPUB Reader tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome). Pricing: [Website · Pricing](https://obsidian-weave.xyz/#pricing).
+See the channel table and website links at the top of this README for tutorials, pricing, QQ, Discord, and the official video.
 
 ---
 
