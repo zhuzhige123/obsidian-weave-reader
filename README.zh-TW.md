@@ -1,10 +1,8 @@
 # Weave Reader（繁體中文）
 
-> **核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！感謝支持！**
-
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
-<div align="center">
+> **核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！謝謝支持！**
 
 ![QQ_1784327250240](https://github.com/user-attachments/assets/dc88b393-76ec-413c-b226-31ab01a7e82a)
 
@@ -15,8 +13,6 @@
 ![QQ_1784328028569](https://github.com/user-attachments/assets/1185b662-3f91-4dee-b552-e53e3ebcb25d)
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
-
-</div>
 
 完整產品說明以主文件為準（結構已與系列統一）：
 

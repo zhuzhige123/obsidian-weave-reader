@@ -1,10 +1,8 @@
 # Weave Reader（Español）
 
-> **La lectura y los extractos principales son gratis. Algunas funciones avanzadas requieren Premium para apoyar el desarrollo continuo; el complemento lleva más de 100 versiones y puede usarse a largo plazo. ¡Gracias por el apoyo!**
-
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Español](./README.es.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
-<div align="center">
+> **La lectura y los extractos principales son gratis. Algunas funciones avanzadas requieren Premium para apoyar el desarrollo continuo; el complemento lleva más de 100 versiones y puede usarse a largo plazo. ¡Gracias por el apoyo!**
 
 ![QQ_1784327250240](https://github.com/user-attachments/assets/dc88b393-76ec-413c-b226-31ab01a7e82a)
 
@@ -15,8 +13,6 @@
 ![QQ_1784328028569](https://github.com/user-attachments/assets/1185b662-3f91-4dee-b552-e53e3ebcb25d)
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
-
-</div>
 
 La documentación canónica de la serie está en el README principal:
 

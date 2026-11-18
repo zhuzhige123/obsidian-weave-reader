@@ -1,7 +1,5 @@
 # Weave Reader
 
-> **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！感谢支持！**
-
 **Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
 **文档语言：** [简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
@@ -13,9 +11,7 @@
 | 官方正式教程视频 | [Bilibili · Weave Reader 教程](https://www.bilibili.com/video/BV1Zcs56NE9C/) |
 | 官网与图文教程 | [官网 · 价格](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome) |
 
-<div align="center">
-
-
+> **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！谢谢支持！**
 
 ![weave-series-banner-trinity](https://github.com/user-attachments/assets/d3bb327f-83f4-4b1d-878b-0c63c7631648)
 
@@ -30,15 +26,6 @@
 ![QQ_1784328028569](https://github.com/user-attachments/assets/1185b662-3f91-4dee-b552-e53e3ebcb25d)
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
-
-
-
-
-<br/>
-
-
-
-</div>
 
 ---
 
@@ -269,7 +256,7 @@
 
 ## English Documentation
 
-> **Core reading and excerpting are free. A few advanced features require Premium to support ongoing development; the plugin has gone through 100+ releases and is ready for long-term use. Thank you for your support!**
+> **Core reading and excerpting are free. A few advanced features require Premium to support ongoing development; the plugin has gone through 100+ releases and is ready for long-term use. Thanks for your support!**
 
 ### Overview
 
