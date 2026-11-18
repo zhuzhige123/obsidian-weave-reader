@@ -13,7 +13,9 @@
 
 <div align="center">
 
-![weave-series-banner-trinity](https://github.com/user-attachments/assets/0df853a2-9f27-4ad9-a048-b4a0c9ab716c)
+
+
+![weave-series-banner-trinity](https://github.com/user-attachments/assets/d3bb327f-83f4-4b1d-878b-0c63c7631648)
 
 ![weave-series-banner-trinity](https://github.com/user-attachments/assets/8f748341-bb83-4cf9-b020-d8cd18a2aa92)
 
@@ -27,9 +29,12 @@
 
 ![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
 
+
+
+
 <br/>
 
-[![序章｜Weave Reader 官方系列教程](https://i2.hdslb.com/bfs/archive/34dd29f15e73487ff8cc51a7eee4836367cbaf39.jpg)](https://www.bilibili.com/video/BV1Zcs56NE9C/)
+
 
 </div>
 
