@@ -1,10 +1,12 @@
 # Weave Reader
 
-[![Release](https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
-[![Downloads](https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
-[![Stars](https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader?style=social)](https://github.com/zhuzhige123/obsidian-weave-reader/stargazers)
-[![License](https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader)](./LICENSE)
-[![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white)](https://obsidian.md/plugins?search=weave%20reader)
+<p>
+<a href="https://github.com/zhuzhige123/obsidian-weave-reader/releases"><img alt="release" src="https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release"></a>
+<a href="https://github.com/zhuzhige123/obsidian-weave-reader/releases"><img alt="downloads" src="https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total"></a>
+<a href="https://github.com/zhuzhige123/obsidian-weave-reader/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader"></a>
+<a href="./LICENSE"><img alt="license" src="https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader"></a>
+<a href="https://obsidian.md/plugins?search=weave%20reader"><img alt="Obsidian Plugin" src="https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white"></a>
+</p>
 
 **Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
