@@ -1,7 +1,6 @@
 # Weave Reader
 
-> [!NOTE]
-> 核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！详见[「基础体验与高级支持」](#基础体验与高级支持)。
+> **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！感谢支持！**
 
 **Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
@@ -270,8 +269,7 @@
 
 ## English Documentation
 
-> [!NOTE]
-> Core reading and excerpting are free. A few advanced features require Premium to support ongoing development; the plugin has gone through 100+ releases and is ready for long-term use. See [Essential experience and Premium support](#essential-experience-and-premium-support).
+> **Core reading and excerpting are free. A few advanced features require Premium to support ongoing development; the plugin has gone through 100+ releases and is ready for long-term use. Thank you for your support!**
 
 ### Overview
 

@@ -1,7 +1,6 @@
 # Weave Reader（العربية）
 
-> [!NOTE]
-> القراءة والاقتباسات الأساسية مجانية. بعض الميزات المتقدمة تتطلب Premium لدعم التطوير المستمر؛ المكوّن مرّ بأكثر من 100 إصدار ويمكن الاعتماد عليه طويلًا. راجع [Essential experience and Premium support](./README.md#essential-experience-and-premium-support).
+> **القراءة والاقتباسات الأساسية مجانية. بعض الميزات المتقدمة تتطلب Premium لدعم التطوير المستمر؛ المكوّن مرّ بأكثر من 100 إصدار ويمكن الاعتماد عليه طويلًا. شكرًا لدعمكم!**
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [العربية](./README.ar.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

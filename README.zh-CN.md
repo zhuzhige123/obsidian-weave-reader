@@ -1,7 +1,6 @@
 # Weave Reader（简体中文）
 
-> [!NOTE]
-> 核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！详见主文档[「基础体验与高级支持」](./README.md#基础体验与高级支持)。
+> **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！感谢支持！**
 
 **文档语言：** [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
 

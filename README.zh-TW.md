@@ -1,7 +1,6 @@
 # Weave Reader（繁體中文）
 
-> [!NOTE]
-> 核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！詳見[「基礎體驗與高級支持」](./README.md#基础体验与高级支持)。
+> **核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！感謝支持！**
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

@@ -1,7 +1,6 @@
 # Weave Reader（日本語）
 
-> [!NOTE]
-> コアの読書・抜粋機能は無料です。一部の高度な機能は継続開発支援のため Premium が必要です。本プラグインは 100 回以上の更新を重ねており、長期利用に適しています。詳しくは [Essential experience and Premium support](./README.md#essential-experience-and-premium-support) を参照。
+> **コアの読書・抜粋機能は無料です。一部の高度な機能は継続開発支援のため Premium が必要です。本プラグインは 100 回以上の更新を重ねており、長期利用に適しています。ご支援に感謝します！**
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [日本語](./README.ja.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

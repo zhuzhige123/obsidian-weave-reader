@@ -1,7 +1,6 @@
 # Weave Reader（Français）
 
-> [!NOTE]
-> La lecture et les extraits essentiels sont gratuits. Quelques fonctions avancées nécessitent Premium pour soutenir le développement continu ; le plugin a plus de 100 versions et peut être utilisé durablement. Voir [Essential experience and Premium support](./README.md#essential-experience-and-premium-support).
+> **La lecture et les extraits essentiels sont gratuits. Quelques fonctions avancées nécessitent Premium pour soutenir le développement continu ; le plugin a plus de 100 versions et peut être utilisé durablement. Merci pour votre soutien !**
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Français](./README.fr.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 

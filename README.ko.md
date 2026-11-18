@@ -1,7 +1,6 @@
 # Weave Reader（한국어）
 
-> [!NOTE]
-> 핵심 읽기와 발췌 기능은 무료입니다. 일부 고급 기능은 지속 개발 지원을 위해 Premium이 필요합니다. 플러그인은 100회 이상 업데이트되었으며 장기 사용에 적합합니다. 자세한 내용은 [Essential experience and Premium support](./README.md#essential-experience-and-premium-support)를 참고하세요.
+> **핵심 읽기와 발췌 기능은 무료입니다. 일부 고급 기능은 지속 개발 지원을 위해 Premium이 필요합니다. 플러그인은 100회 이상 업데이트되었으며 장기 사용에 적합합니다. 지원에 감사드립니다!**
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [한국어](./README.ko.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
