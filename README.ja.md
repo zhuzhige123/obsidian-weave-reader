@@ -1,5 +1,11 @@
 # Weave Reader（日本語）
 
+[![Release](https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Downloads](https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Stars](https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader?style=social)](https://github.com/zhuzhige123/obsidian-weave-reader/stargazers)
+[![License](https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader)](./LICENSE)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white)](https://obsidian.md/plugins?search=weave%20reader)
+
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [日本語](./README.ja.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
 > **コアの読書・抜粋機能は無料です。一部の高度な機能は継続開発支援のため Premium が必要です。本プラグインは 100 回以上の更新を重ねており、長期利用に適しています。ご支援ありがとうございます！**

@@ -1,5 +1,11 @@
 # Weave Reader（简体中文）
 
+[![Release](https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Downloads](https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Stars](https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader?style=social)](https://github.com/zhuzhige123/obsidian-weave-reader/stargazers)
+[![License](https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader)](./LICENSE)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white)](https://obsidian.md/plugins?search=weave%20reader)
+
 **文档语言：** [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
 
 > **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！谢谢支持！**

@@ -1,5 +1,11 @@
 # Weave Reader（繁體中文）
 
+[![Release](https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Downloads](https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Stars](https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader?style=social)](https://github.com/zhuzhige123/obsidian-weave-reader/stargazers)
+[![License](https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader)](./LICENSE)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white)](https://obsidian.md/plugins?search=weave%20reader)
+
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
 > **核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！謝謝支持！**

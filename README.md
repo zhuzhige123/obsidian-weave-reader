@@ -1,5 +1,11 @@
 # Weave Reader
 
+[![Release](https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Downloads](https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total)](https://github.com/zhuzhige123/obsidian-weave-reader/releases)
+[![Stars](https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader?style=social)](https://github.com/zhuzhige123/obsidian-weave-reader/stargazers)
+[![License](https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader)](./LICENSE)
+[![Obsidian](https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white)](https://obsidian.md/plugins?search=weave%20reader)
+
 **Weave Reader** 把阅读嵌进 Obsidian 的知识工作流：在库内沉浸阅读多格式电子书，摘录与想法可写入 Markdown、Canvas 或 Weave 记忆体系，并保留书籍锚点以便笔记与原文互相跳转。排版可跟随 Obsidian；摘录与书目数据落在库文件中，而不是锁进封闭阅读 App。
 
 **文档语言：** [简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
