@@ -1,11 +1,11 @@
 # Weave Reader（العربية）
 
 <p>
-<a href="https://github.com/zhuzhige123/obsidian-weave-reader/releases"><img alt="release" src="https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release"></a>
 <a href="https://github.com/zhuzhige123/obsidian-weave-reader/releases"><img alt="downloads" src="https://img.shields.io/github/downloads/zhuzhige123/obsidian-weave-reader/total"></a>
-<a href="https://github.com/zhuzhige123/obsidian-weave-reader/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader"></a>
+<a href="https://github.com/zhuzhige123/obsidian-weave-reader/releases"><img alt="release" src="https://img.shields.io/github/v/release/zhuzhige123/obsidian-weave-reader?display_name=tag&label=release"></a>
 <a href="./LICENSE"><img alt="license" src="https://img.shields.io/github/license/zhuzhige123/obsidian-weave-reader"></a>
 <a href="https://obsidian.md/plugins?search=weave%20reader"><img alt="Obsidian Plugin" src="https://img.shields.io/badge/Obsidian-Plugin-blue?logo=obsidian&logoColor=white"></a>
+<a href="https://github.com/zhuzhige123/obsidian-weave-reader/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader"></a>
 </p>
 
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [العربية](./README.ar.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
