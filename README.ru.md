@@ -1,5 +1,8 @@
 # Weave Reader（Русский）
 
+> [!NOTE]
+> Основное чтение и выдержки бесплатны. Некоторые расширенные возможности требуют Premium для поддержки разработки; плагин прошёл более 100 релизов и готов к долгосрочному использованию. См. [Essential experience and Premium support](./README.md#essential-experience-and-premium-support).
+
 [简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Русский](./README.ru.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
 
 <div align="center">
