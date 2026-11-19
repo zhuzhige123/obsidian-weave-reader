@@ -96,45 +96,35 @@
 | | Canvas 绑定与自动写入节点 | ✅ | ✅ |
 | | 公开 API（当前章 / 指定 TOC 小节正文、本章或全书摘录笔记等） | ✅ | ✅ |
 | | 高级 Markdown 导出（全书 / 本章摘录笔记、带摘录标记章节） | 🔒 | ✅ |
+| **暂不考虑**（基于产品哲学，实用价值与协作思维的最优解） | 插件内置 AI | 解释：公开 API 可供其它 AI 插件获取当前章节、摘录笔记等 | ❌ |
+| | 听书 / 朗读 | 解释：与「阅读—摘录—笔记」理念冲突；可用系统选区朗读如豆包、导出当前章 MD，或其它插件经公开 API 朗读 | ❌ |
+| | 自动记录阅读进度 | 解释：溯源翻页易误更新；请用手动书签式记录进度 | ❌ |
+| | 更多统计图表 | 解释：对本插件「专注阅读摘录」定位意义有限 | ❌ |
+| | PDF 阅读与摘录 | 解释：书架可导入 PDF；阅读摘录交给 Obsidian 自带或更专业插件，推荐 [Pdf++](https://github.com/RyotaUshio/obsidian-pdf-plus) | ❌ |
 
-> 图例：✅ 已包含 · 🔒 需启用高级支持
+> 图例：✅ 已包含 · 🔒 需启用高级支持 · ❌ 暂不考虑
 
 - **启用高级支持**：在阅读器设置中使用 EPUB 独立激活码；若已安装并激活 **Weave Deck**，可继承授权。亦可使用 [Weave 系列激活码](https://obsidian-weave.xyz/#pricing)。条款见 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)。
 - **制卡 / 增量阅读 / AI**：不单独占用阅读器高级支持许可，但需安装 Weave Deck（如适用）；AI 另需自行配置 API Key。
 
----
+### 与 Weave 系列
 
-### 核心功能
+系列共三款插件，围绕 **读 → 记 → 排 → 复习**：
 
-#### 书架与格式
+| 插件 | 职责 |
+|------|------|
+| **Weave Reader**（本插件） | 库内多格式阅读、摘录、书籍锚点 |
+| **Weave Deck** | 记忆牌组、制卡、FSRS 复习、考试 |
+| **Weave Incremental Reading** | 阅读点、专题、日历调度、续读 |
 
-通过功能区或命令打开**我的书架**，导入库内图书，管理封面、进度与筛选。免费支持 EPUB、TXT、FB2/FBZ、MOBI、AZW3、CBZ、PDF 等。高级支持可开启**活动热力日历**（阅读 / 摘录 / 番茄）与书架书单。
+| 需要… | 安装 |
+|-------|------|
+| 仅库内阅读与摘录 | 本插件 |
+| 制卡与间隔复习 | 本插件 + Weave Deck |
+| 阅读队列 / 日历 | Weave Incremental Reading（EPUB 章节续读再加本插件） |
+| 完整闭环 | 三款都装 |
 
-详见：[安装与打开书架](https://obsidian-weave.xyz/tutorials.html#reader-install-shelf)。
-
-#### 阅读模式与排版
-
-目录跳转、双页或连续滚动；排版可跟随 Obsidian，或自定义正文字体 / 字号 / 出版商样式。进度与书架同步持久化。
-
-详见：[界面与阅读模式](https://obsidian-weave.xyz/tutorials.html#reader-ui-modes)。
-
-#### 摘录与高亮
-
-五色高亮、想法、自动摘录、截图摘录、卡片列表与**当前书**时间线。摘录须写入 Markdown、Canvas 或牌组，才会留下可同步数据与标注块正文回显。高级支持另提供**行内摘录回显**（颜色 emoji + 溯源链接）与全书架时间线。
-
-详见：[摘录工作流](https://obsidian-weave.xyz/tutorials.html#reader-excerpt-workflow)。
-
-#### 溯源与导航
-
-书签、参考阅读点与**双向溯源**（笔记 ↔ 原书）帮助回到原位。高级支持提供全书架时间线、章节标记与全书地图密度条。
-
-详见：[双向溯源](https://obsidian-weave.xyz/tutorials.html#reader-bidirectional)。
-
-#### 进阶阅读（高级）
-
-段落阅读 / 沉浸全屏、生词标注、透光渐变、番茄专注计时、书架书单、活动热力日历与高级 Markdown 导出。
-
-详见：[段落与沉浸](https://obsidian-weave.xyz/tutorials.html#reader-paragraph-immersive)。
+详见：[与 Weave 协同](https://obsidian-weave.xyz/tutorials.html#reader-weave-integration)。
 
 ---
 
@@ -186,27 +176,6 @@
 
 ---
 
-### 与 Weave 系列
-
-系列共三款插件，围绕 **读 → 记 → 排 → 复习**：
-
-| 插件 | 职责 |
-|------|------|
-| **Weave Reader**（本插件） | 库内多格式阅读、摘录、书籍锚点 |
-| **Weave Deck** | 记忆牌组、制卡、FSRS 复习、考试 |
-| **Weave Incremental Reading** | 阅读点、专题、日历调度、续读 |
-
-| 需要… | 安装 |
-|-------|------|
-| 仅库内阅读与摘录 | 本插件 |
-| 制卡与间隔复习 | 本插件 + Weave Deck |
-| 阅读队列 / 日历 | Weave Incremental Reading（EPUB 章节续读再加本插件） |
-| 完整闭环 | 三款都装 |
-
-详见：[与 Weave 协同](https://obsidian-weave.xyz/tutorials.html#reader-weave-integration)。
-
----
-
 ### 常见问题
 
 #### 1. 如何正确做阅读摘录？
@@ -219,7 +188,7 @@
 
 #### 3. 是否集成 AI？
 
-现阶段不在阅读器内集成 AI。需要时可复制 / 导出章节，或用公开 API 配合其它 AI 插件。
+暂不内置 AI。详见功能对照表「暂不考虑」；可复制 / 导出章节，或用公开 API 配合其它 AI 插件。
 
 #### 4. 摘录能否全平台同步？
 
@@ -240,17 +209,6 @@
 更多见官网：[常见问题](https://obsidian-weave.xyz/tutorials.html#reader-faq)。邮箱：tutaoyuan8@outlook.com。
 
 ---
-
-### 更多文档
-
-| 资源 | 链接 |
-|------|------|
-| 官网 / 价格 | [obsidian-weave.xyz](https://obsidian-weave.xyz/#pricing) |
-| 使用教程 | [tutorials.html · EPUB Reader](https://obsidian-weave.xyz/tutorials.html#reader-welcome) |
-| 隐私说明 | [PRIVACY.md](./PRIVACY.md) |
-| 高级支持条款 | [PREMIUM_TERMS.md](./PREMIUM_TERMS.md) |
-| 支持 / 安全 | [SUPPORT.md](./SUPPORT.md) · [SECURITY.md](./SECURITY.md) |
-| 许可证 | [GPL-3.0-or-later](LICENSE) |
 
 ### 许可证与作者
 
@@ -325,45 +283,35 @@ Daily reading, bookshelf, excerpts, **book data page templates**, callout-block 
 | | Canvas binding and automatic node creation | ✅ | ✅ |
 | | Public API (current chapter / TOC section body, chapter or whole-book excerpt notes, etc.) | ✅ | ✅ |
 | | Advanced Markdown export (whole-book / chapter excerpt notes, chapters with excerpt marks) | 🔒 | ✅ |
+| **Not planned** (optimal trade-off of product philosophy, practical value, and collaborative design) | Built-in AI in the plugin | Note: the public API lets other AI plugins fetch the current chapter, excerpt notes, and more | ❌ |
+| | Listen / read aloud | Note: conflicts with the read → excerpt → note philosophy; use system selection TTS (e.g. Doubao), export the chapter as Markdown, or have another plugin read via the public API | ❌ |
+| | Auto-save reading progress | Note: jumping via source links often mis-updates progress; prefer manual bookmark-style progress | ❌ |
+| | More analytics charts | Note: limited value for a plugin focused on reading and excerpting | ❌ |
+| | PDF reading & excerpting | Note: the bookshelf can import PDFs; leave reading/excerpting to Obsidian or a dedicated plugin such as [Pdf++](https://github.com/RyotaUshio/obsidian-pdf-plus) | ❌ |
 
-> Legend: ✅ included · 🔒 requires Premium support
+> Legend: ✅ included · 🔒 requires Premium support · ❌ not planned
 
 - **Enable Premium support**: EPUB-only activation code in reader settings; if an activated **Weave Deck** is installed, authorization can be inherited. Reader Premium is also included in the [Weave series activation code](https://obsidian-weave.xyz/#pricing). Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
 - **Card making / incremental reading / AI**: do not consume a separate reader Premium license, but require Weave Deck where applicable; AI needs your own API key.
 
----
+### Weave family
 
-### Core features
+Exactly three Weave plugins, composing **read → capture → schedule → review**:
 
-#### Bookshelf and formats
+| Plugin | Responsibility |
+|--------|----------------|
+| **Weave Reader** (this plugin) | In-vault multi-format reading, excerpts, book anchors |
+| **Weave Deck** | Memory decks, card-making, FSRS review, exams |
+| **Weave Incremental Reading** | Reading points, topics, calendar scheduling, resume |
 
-Open **My bookshelf** from the ribbon or command palette. Import vault books, browse covers and progress, search/filter, and track reading status. Free formats include EPUB, TXT, FB2/FBZ, MOBI, AZW3, CBZ, and PDF. Premium adds the **activity heatmap** calendar (reading / excerpts / focus tomatoes) and bookshelf playlists.
+| Need… | Install |
+|-------|---------|
+| Library reading & excerpts only | This plugin |
+| Cards and spaced review | This plugin + Weave Deck |
+| Reading queue / calendar | Weave Incremental Reading (+ this plugin for EPUB chapter resume) |
+| Full loop | All three |
 
-See: [Install & bookshelf](https://obsidian-weave.xyz/tutorials.html#reader-install-shelf).
-
-#### Reading modes and typography
-
-Use TOC jump, dual-page or continuous scroll, and typography that follows Obsidian or custom body font/size / publisher styles. Progress is persisted with the bookshelf.
-
-See: [UI & modes](https://obsidian-weave.xyz/tutorials.html#reader-ui-modes).
-
-#### Excerpts and highlights
-
-Five highlight colors, thoughts, auto excerpt, screenshot excerpt, card list, and **current-book** timeline. Excerpts must be saved into Markdown, Canvas, or Weave decks to leave durable data and callout-block in-body echo. Premium also adds **inline excerpt echo** (color emoji + source link) and the library-wide timeline.
-
-See: [Excerpt workflow](https://obsidian-weave.xyz/tutorials.html#reader-excerpt-workflow).
-
-#### Trace and navigation
-
-Bookmarks, reference points, and **two-way tracing** (notes ↔ book) help you return to a place in the book. Premium adds library-wide timeline, chapter marks, and book-map density.
-
-See: [Two-way tracing](https://obsidian-weave.xyz/tutorials.html#reader-bidirectional).
-
-#### Advanced reading (Premium)
-
-Paragraph reading / immersive fullscreen, vocabulary marking, background glow, Pomodoro focus timer, bookshelf playlists, activity heatmap, and advanced Markdown export.
-
-See: [Paragraph & immersive](https://obsidian-weave.xyz/tutorials.html#reader-paragraph-immersive).
+See: [Weave integration](https://obsidian-weave.xyz/tutorials.html#reader-weave-integration).
 
 ---
 
@@ -415,27 +363,6 @@ See: [Settings & sync](https://obsidian-weave.xyz/tutorials.html#reader-settings
 
 ---
 
-### Weave family
-
-Exactly three Weave plugins, composing **read → capture → schedule → review**:
-
-| Plugin | Responsibility |
-|--------|----------------|
-| **Weave Reader** (this plugin) | In-vault multi-format reading, excerpts, book anchors |
-| **Weave Deck** | Memory decks, card-making, FSRS review, exams |
-| **Weave Incremental Reading** | Reading points, topics, calendar scheduling, resume |
-
-| Need… | Install |
-|-------|---------|
-| Library reading & excerpts only | This plugin |
-| Cards and spaced review | This plugin + Weave Deck |
-| Reading queue / calendar | Weave Incremental Reading (+ this plugin for EPUB chapter resume) |
-| Full loop | All three |
-
-See: [Weave integration](https://obsidian-weave.xyz/tutorials.html#reader-weave-integration).
-
----
-
 ### FAQ
 
 #### 1. How do I capture reading excerpts correctly?
@@ -448,7 +375,7 @@ Excerpts must be stored in Markdown, Canvas, or Weave deck files you choose. The
 
 #### 3. Does the reader integrate AI?
 
-Not in the reader itself. Keep a clean reading environment; use copy/export/API with other AI plugins if needed.
+No built-in AI. See the feature table “Not planned”; copy/export chapters or use the public API with other AI plugins.
 
 #### 4. Can excerpts sync across platforms?
 
@@ -469,17 +396,6 @@ Typography defaults to Obsidian; enable custom body font/size in the reader menu
 More: [FAQ](https://obsidian-weave.xyz/tutorials.html#reader-faq). Email: tutaoyuan8@outlook.com.
 
 ---
-
-### More documentation
-
-| Resource | Link |
-|----------|------|
-| Website / Pricing | [obsidian-weave.xyz](https://obsidian-weave.xyz/#pricing) |
-| Tutorials | [tutorials.html · EPUB Reader](https://obsidian-weave.xyz/tutorials.html#reader-welcome) |
-| Privacy | [PRIVACY.md](./PRIVACY.md) |
-| Premium terms | [PREMIUM_TERMS.md](./PREMIUM_TERMS.md) |
-| Support / Security | [SUPPORT.md](./SUPPORT.md) · [SECURITY.md](./SECURITY.md) |
-| License | [GPL-3.0-or-later](LICENSE) |
 
 ### License and author
 
