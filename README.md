@@ -21,8 +21,8 @@
 
 > **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！谢谢支持！**
 
+![855c94b5-37e2-4427-93b5-b8a8ac45b3a5](https://github.com/user-attachments/assets/bf74db5e-6cc3-4a4d-b92d-e6ae24923e5f)
 
-![49992654-2ba3-4d62-81de-6639eb58be5c](https://github.com/user-attachments/assets/7b6ddb33-73cf-4f3a-a1c8-bae102762bd3)
 
 ![QQ_2026-11-20_08-34-15-HD](https://github.com/user-attachments/assets/5547fe6e-e6dc-4f48-b62e-d12c1c9ed3ba)
 
