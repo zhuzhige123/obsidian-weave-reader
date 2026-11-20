@@ -21,19 +21,23 @@
 
 > **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！谢谢支持！**
 
-![weave-series-banner-trinity](https://github.com/user-attachments/assets/d3bb327f-83f4-4b1d-878b-0c63c7631648)
 
-![weave-series-banner-trinity](https://github.com/user-attachments/assets/8f748341-bb83-4cf9-b020-d8cd18a2aa92)
+![49992654-2ba3-4d62-81de-6639eb58be5c](https://github.com/user-attachments/assets/7b6ddb33-73cf-4f3a-a1c8-bae102762bd3)
 
-![QQ_1784327250240](https://github.com/user-attachments/assets/dc88b393-76ec-413c-b226-31ab01a7e82a)
+![QQ_2026-11-20_08-34-15-HD](https://github.com/user-attachments/assets/5547fe6e-e6dc-4f48-b62e-d12c1c9ed3ba)
 
-![QQ20260718-070731-HD](https://github.com/user-attachments/assets/c1850008-aa57-48e1-b63f-d34a01326a53)
+![Screenshot_2026-11-17-18-38-08-889_md-obsidian-e](https://github.com/user-attachments/assets/26b1a2b2-5706-4529-9e95-44efecefa531)
 
-![QQ20260718-064929-HD](https://github.com/user-attachments/assets/5fc7ff83-b8e3-498f-8233-90fbcc94198b)
+![image](https://github.com/user-attachments/assets/ee9e6de7-6a70-4d9d-9343-ae9c6bd5e8aa)
 
-![QQ_1784328028569](https://github.com/user-attachments/assets/1185b662-3f91-4dee-b552-e53e3ebcb25d)
+![image](https://github.com/user-attachments/assets/70624f14-35c1-4447-8387-adc90df0f415)
 
-![QQ_1785812351950](https://github.com/user-attachments/assets/5c33039e-7ca4-461b-b258-972561f9789d)
+![image](https://github.com/user-attachments/assets/868f5bbe-b80c-4b8c-b028-5c6142dd3497)
+
+
+
+
+
 
 ---
 
