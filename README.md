@@ -51,7 +51,7 @@
 | **摘录** | 高亮、想法与笔记写入 Markdown / Canvas / 牌组，并带书籍锚点 |
 | **溯源** | 在书中段落与摘录笔记之间互相跳转 |
 
-它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Deck、Weave Reader、Weave Incremental Reading），**可独立使用**，不强制安装 Weave Deck。
+它是 **Obsidian Weave 插件系列**中的阅读器（系列有且仅有三款：Weave Review、Weave Reader、Weave Incremental Reading），**可独立使用**，不强制安装 Weave Review。
 
 最低 Obsidian 版本：**1.8.7**。桌面端与移动端均可用。
 
@@ -108,8 +108,8 @@
 
 > 图例：✅ 已包含 · 🔒 需启用高级支持 · ❌ 暂不考虑
 
-- **启用高级支持**：在阅读器设置中使用 EPUB 独立激活码；若已安装并激活 **Weave Deck**，可继承授权。亦可使用 [Weave 系列激活码](https://obsidian-weave.xyz/#pricing)。条款见 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)。
-- **制卡 / 增量阅读 / AI**：不单独占用阅读器高级支持许可，但需安装 Weave Deck（如适用）；AI 另需自行配置 API Key。
+- **启用高级支持**：在阅读器设置中使用 EPUB 独立激活码；若已安装并激活 **Weave Review**，可继承授权。亦可使用 [Weave 系列激活码](https://obsidian-weave.xyz/#pricing)。条款见 [PREMIUM_TERMS.md](./PREMIUM_TERMS.md)。
+- **制卡 / 增量阅读 / AI**：不单独占用阅读器高级支持许可，但需安装 Weave Review（如适用）；AI 另需自行配置 API Key。
 
 ### 与 Weave 系列
 
@@ -118,13 +118,13 @@
 | 插件 | 职责 |
 |------|------|
 | **Weave Reader**（本插件） | 库内多格式阅读、摘录、书籍锚点 |
-| **Weave Deck** | 记忆牌组、制卡、FSRS 复习、考试 |
+| **Weave Review** | 记忆牌组、制卡、FSRS 复习、考试 |
 | **Weave Incremental Reading** | 阅读点、专题、日历调度、续读 |
 
 | 需要… | 安装 |
 |-------|------|
 | 仅库内阅读与摘录 | 本插件 |
-| 制卡与间隔复习 | 本插件 + Weave Deck |
+| 制卡与间隔复习 | 本插件 + Weave Review |
 | 阅读队列 / 日历 | Weave Incremental Reading（EPUB 章节续读再加本插件） |
 | 完整闭环 | 三款都装 |
 
@@ -174,7 +174,7 @@
 
 - 阅读、渲染、摘录与回链**默认本地**，不主动上传 Vault 内容。
 - **高级支持激活**可能访问许可证服务，见 [PRIVACY.md](./PRIVACY.md)。
-- 经 **Weave Deck** 使用 AI 时调用你配置的第三方服务；**阅读器本身不提供 AI**。
+- 经 **Weave Review** 使用 AI 时调用你配置的第三方服务；**阅读器本身不提供 AI**。
 
 详见：[设置与同步](https://obsidian-weave.xyz/tutorials.html#reader-settings-sync)。
 
@@ -186,7 +186,7 @@
 
 摘录须保存在你选择的 Markdown、Canvas 或牌组文件中；阅读器据此回显正文高亮。未按此保存的选区只会短暂闪一下。
 
-#### 2. 必须安装 Weave Deck 吗？
+#### 2. 必须安装 Weave Review 吗？
 
 **不必。** 单独即可阅读、管理书架并完成摘录与正文回显。Deck 用于制卡复习、增量阅读衔接、AI 菜单与授权继承。
 
@@ -238,7 +238,7 @@
 | **Excerpt** | Highlights, thoughts, and notes saved into Markdown / Canvas / decks with book anchors |
 | **Trace** | Jump between the book passage and the note that holds the excerpt |
 
-It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: Weave Deck, Weave Reader, and Weave Incremental Reading). It works **standalone**—Weave Deck is optional.
+It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: Weave Review, Weave Reader, and Weave Incremental Reading). It works **standalone**—Weave Review is optional.
 
 Minimum Obsidian version: **1.8.7**. Desktop and mobile are supported.
 
@@ -295,8 +295,8 @@ Daily reading, bookshelf, excerpts, **book data page templates**, callout-block 
 
 > Legend: ✅ included · 🔒 requires Premium support · ❌ not planned
 
-- **Enable Premium support**: EPUB-only activation code in reader settings; if an activated **Weave Deck** is installed, authorization can be inherited. Reader Premium is also included in the [Weave series activation code](https://obsidian-weave.xyz/#pricing). Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
-- **Card making / incremental reading / AI**: do not consume a separate reader Premium license, but require Weave Deck where applicable; AI needs your own API key.
+- **Enable Premium support**: EPUB-only activation code in reader settings; if an activated **Weave Review** is installed, authorization can be inherited. Reader Premium is also included in the [Weave series activation code](https://obsidian-weave.xyz/#pricing). Terms: [PREMIUM_TERMS.md](./PREMIUM_TERMS.md).
+- **Card making / incremental reading / AI**: do not consume a separate reader Premium license, but require Weave Review where applicable; AI needs your own API key.
 
 ### Weave family
 
@@ -305,13 +305,13 @@ Exactly three Weave plugins, composing **read → capture → schedule → revie
 | Plugin | Responsibility |
 |--------|----------------|
 | **Weave Reader** (this plugin) | In-vault multi-format reading, excerpts, book anchors |
-| **Weave Deck** | Memory decks, card-making, FSRS review, exams |
+| **Weave Review** | Memory decks, card-making, FSRS review, exams |
 | **Weave Incremental Reading** | Reading points, topics, calendar scheduling, resume |
 
 | Need… | Install |
 |-------|---------|
 | Library reading & excerpts only | This plugin |
-| Cards and spaced review | This plugin + Weave Deck |
+| Cards and spaced review | This plugin + Weave Review |
 | Reading queue / calendar | Weave Incremental Reading (+ this plugin for EPUB chapter resume) |
 | Full loop | All three |
 
@@ -361,7 +361,7 @@ More detail: [Intro tutorials](https://obsidian-weave.xyz/tutorials.html#reader-
 
 - Reading, rendering, excerpting, and backlinks are **local by default**; vault content is not uploaded proactively.
 - **Premium activation** may contact the license service. See [PRIVACY.md](./PRIVACY.md).
-- AI via **Weave Deck** uses third-party services you configure; **the reader itself does not provide AI**.
+- AI via **Weave Review** uses third-party services you configure; **the reader itself does not provide AI**.
 
 See: [Settings & sync](https://obsidian-weave.xyz/tutorials.html#reader-settings-sync).
 
@@ -373,7 +373,7 @@ See: [Settings & sync](https://obsidian-weave.xyz/tutorials.html#reader-settings
 
 Excerpts must be stored in Markdown, Canvas, or Weave deck files you choose. The reader aggregates those source links and renders highlights in the book. Selections that are not saved this way only flash briefly.
 
-#### 2. Do I need Weave Deck?
+#### 2. Do I need Weave Review?
 
 **No.** You can read, manage the bookshelf, and capture excerpts with in-body rendering alone. Deck adds spaced-repetition cards, incremental-reading calendar hooks, AI actions, and license inheritance.
 
