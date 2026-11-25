@@ -12,13 +12,6 @@
 
 **文档语言：** [简体中文](#中文文档) · [English](#english-documentation) · [繁體中文](./README.zh-TW.md) · [Español](./README.es.md) · [Français](./README.fr.md) · [日本語](./README.ja.md) · [한국어](./README.ko.md) · [Русский](./README.ru.md) · [العربية](./README.ar.md)
 
-| 渠道 | 链接 |
-|------|------|
-| QQ 公开群 | [点击链接加入群聊【Obsidan-Weave系列 反馈群】](https://qm.qq.com/q/TNnSmywgeW) |
-| Discord | [Obsidian-Weave 反馈频道](https://discord.com/channels/1553861810665554023/1553867320311677039) |
-| 官方正式教程视频 | [Bilibili · Weave Reader 教程](https://www.bilibili.com/video/BV1Zcs56NE9C/) |
-| 官网与图文教程 | [官网 · 价格](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome) |
-
 > **核心阅读与摘录免费可用。少数进阶能力需付费解锁以支持持续开发；插件已迭代百余版，可放心长期使用！谢谢支持！**
 
 ![855c94b5-37e2-4427-93b5-b8a8ac45b3a5](https://github.com/user-attachments/assets/bf74db5e-6cc3-4a4d-b92d-e6ae24923e5f)
@@ -47,7 +40,7 @@
 
 | 概念 | 说明 |
 |------|------|
-| **书架** | 导入、封面、进度、搜索筛选与阅读状态 |
+| **书架** | 导入、封面、进度、搜索筛选、阅读状态；内容区主页与横幅卡片 |
 | **摘录** | 高亮、想法与笔记写入 Markdown / Canvas / 牌组，并带书籍锚点 |
 | **溯源** | 在书中段落与摘录笔记之间互相跳转 |
 
@@ -55,13 +48,11 @@
 
 最低 Obsidian 版本：**1.8.7**。桌面端与移动端均可用。
 
-社区、官方视频与官网图文教程见文首渠道表。
-
 ---
 
 ### 基础体验与高级支持
 
-日常阅读、书架、摘录、**书籍数据页模板**、标注块正文回显与**双向溯源**均**免费可用**。高级支持解锁活动热力、番茄计时、跨书时间线、段落阅读等进阶能力。
+日常阅读、书架、**内容区书架主页**、**横幅卡片**、摘录、**书籍数据页模板**、标注块正文回显与**双向溯源**均**免费可用**。高级支持解锁活动热力、番茄计时、跨书时间线、段落阅读等进阶能力。
 
 | 类别 | 能力 | 基础体验 | 高级支持 |
 | --- | --- | :---: | :---: |
@@ -72,11 +63,14 @@
 | | 阅读排版：跟随 Obsidian、自定义正文字体与字号、出版商样式 | ✅ | ✅ |
 | | 阅读进度持久化、书架进度 | ✅ | ✅ |
 | **书架** | 我的书架：导入、封面、进度、搜索筛选、阅读状态 | ✅ | ✅ |
+| | 内容区书架主页（书架 / 笔记 / 统计；统计含最爱书、画像、完成足迹与阅读足迹等） | ✅ | ✅ |
+| | 横幅卡片视图（横向封面、阅读状态与进度） | ✅ | ✅ |
 | | 书架多视图、摘录统计（摘录 / 想法 / 制卡数量） | ✅ | ✅ |
 | | 书架书单（含设为主页） | 🔒 | ✅ |
 | | 书架活动热力（近一年贡献日历：阅读 / 摘录 / 番茄） | 🔒 | ✅ |
 | **标注与摘录** | 五种高亮色、想法（`---div---`）、摘录与标注块正文回显 | ✅ | ✅ |
 | | 下划线 / 删除线 / 波浪线等样式标注 | ✅ | ✅ |
+| | 插画级荧光笔笔触（水彩填色与浓淡；经典矩形始终免费） | 🔒 | ✅ |
 | | 自动摘录（插入笔记 / 复制剪贴板） | ✅ | ✅ |
 | | 截图摘录（可翻页续截） | ✅ | ✅ |
 | | 摘录笔记汇总卡片列表（筛选、排序、定位原文） | ✅ | ✅ |
@@ -88,6 +82,7 @@
 | | 全书架摘录时间线（跨书按日回顾、跳转原文） | 🔒 | ✅ |
 | **导航** | 当前页书签、书签目录与书签列表跳转 | ✅ | ✅ |
 | | 参考阅读点（手动记录 / 更新 / 跳转） | ✅ | ✅ |
+| | 阅读进度刻度条（刻度条 / 隐式线、章节节点、接着读标记） | 🔒 | ✅ |
 | | 目录侧栏全书地图密度条 | 🔒 | ✅ |
 | | 目录章节标记（重要 / 疑问 / 已掌握等） | 🔒 | ✅ |
 | **进阶阅读** | 常规阅读透光渐变 | 🔒 | ✅ |
@@ -103,7 +98,7 @@
 | **暂不考虑**（基于产品哲学，实用价值与协作思维的最优解） | 插件内置 AI | 解释：公开 API 可供其它 AI 插件获取当前章节、摘录笔记等 | ❌ |
 | | 听书 / 朗读 | 解释：与「阅读—摘录—笔记」理念冲突；可用系统选区朗读如豆包、导出当前章 MD，或其它插件经公开 API 朗读 | ❌ |
 | | 自动记录阅读进度 | 解释：溯源翻页易误更新；请用手动书签式记录进度 | ❌ |
-| | 更多统计图表 | 解释：对本插件「专注阅读摘录」定位意义有限 | ❌ |
+| | 更重的分析仪表盘 | 解释：主页统计已覆盖常用回顾；不做仪表盘式堆砌，复杂指标可用 Dataview 等自建 | ❌ |
 | | PDF 阅读与摘录 | 解释：书架可导入 PDF；阅读摘录交给 Obsidian 自带或更专业插件，推荐 [Pdf++](https://github.com/RyotaUshio/obsidian-pdf-plus) | ❌ |
 
 > 图例：✅ 已包含 · 🔒 需启用高级支持 · ❌ 暂不考虑
@@ -234,7 +229,7 @@
 
 | Concept | Meaning |
 |---------|---------|
-| **Bookshelf** | Import, covers, progress, search/filter, and reading status for vault books |
+| **Bookshelf** | Import, covers, progress, search/filter, reading status; main-area homepage and banner cards |
 | **Excerpt** | Highlights, thoughts, and notes saved into Markdown / Canvas / decks with book anchors |
 | **Trace** | Jump between the book passage and the note that holds the excerpt |
 
@@ -242,13 +237,11 @@ It is a reader in the **Obsidian Weave plugin series** (exactly three plugins: W
 
 Minimum Obsidian version: **1.8.7**. Desktop and mobile are supported.
 
-See the channel table and website links at the top of this README for tutorials, pricing, QQ, Discord, and the official video.
-
 ---
 
 ### Essential experience and Premium support
 
-Daily reading, bookshelf, excerpts, **book data page templates**, callout-block in-body echo, and **two-way tracing** are **free**. Premium unlocks the activity heatmap, focus timer, library timeline, paragraph reading, and other advanced tools.
+Daily reading, bookshelf, the **main-area bookshelf homepage**, **banner cards**, excerpts, **book data page templates**, callout-block in-body echo, and **two-way tracing** are **free**. Premium unlocks the activity heatmap, focus timer, library timeline, paragraph reading, and other advanced tools.
 
 | Category | Capability | Essential | Premium |
 | --- | --- | :---: | :---: |
@@ -259,11 +252,14 @@ Daily reading, bookshelf, excerpts, **book data page templates**, callout-block 
 | | Reading typography: follow Obsidian, custom body font and size, publisher styles | ✅ | ✅ |
 | | Reading progress persistence, bookshelf progress | ✅ | ✅ |
 | **Bookshelf** | My bookshelf: import, covers, progress, search/filter, reading status | ✅ | ✅ |
+| | Main-area bookshelf homepage (Shelf / Notes / Stats; stats include favorite book, profile, finished timeline, and reading footprint) | ✅ | ✅ |
+| | Banner-card view (horizontal covers with status and progress) | ✅ | ✅ |
 | | Bookshelf multiple views, excerpt stats (excerpts / thoughts / cards) | ✅ | ✅ |
 | | Bookshelf playlists (including set as home) | 🔒 | ✅ |
 | | Bookshelf activity heatmap (year calendar: reading / excerpts / focus tomatoes) | 🔒 | ✅ |
 | **Annotations & excerpts** | Five highlight colors, thoughts (`---div---`), excerpts, and callout-block in-body echo | ✅ | ✅ |
 | | Underline / strikethrough / wavy underline styling | ✅ | ✅ |
+| | Illustration marker stroke (watercolor fill + intensity; classic rectangles stay free) | 🔒 | ✅ |
 | | Auto excerpt (insert into notes / copy to clipboard) | ✅ | ✅ |
 | | Screenshot excerpts (can continue across pages) | ✅ | ✅ |
 | | Excerpt card list (filter, sort, jump to source) | ✅ | ✅ |
@@ -275,6 +271,7 @@ Daily reading, bookshelf, excerpts, **book data page templates**, callout-block 
 | | Library-wide excerpt timeline (cross-book daily review, jump to source) | 🔒 | ✅ |
 | **Navigation** | Current-page bookmarks, bookmark folder, and bookmark list navigation | ✅ | ✅ |
 | | Reading reference points (record / update / jump) | ✅ | ✅ |
+| | Reading progress scale (dock / hairline, chapter nodes, resume pin) | 🔒 | ✅ |
 | | TOC sidebar book map density bar | 🔒 | ✅ |
 | | TOC chapter marks (important / question / mastered, etc.) | 🔒 | ✅ |
 | **Advanced reading** | Reading background glow | 🔒 | ✅ |
@@ -290,7 +287,7 @@ Daily reading, bookshelf, excerpts, **book data page templates**, callout-block 
 | **Not planned** (optimal trade-off of product philosophy, practical value, and collaborative design) | Built-in AI in the plugin | Note: the public API lets other AI plugins fetch the current chapter, excerpt notes, and more | ❌ |
 | | Listen / read aloud | Note: conflicts with the read → excerpt → note philosophy; use system selection TTS (e.g. Doubao), export the chapter as Markdown, or have another plugin read via the public API | ❌ |
 | | Auto-save reading progress | Note: jumping via source links often mis-updates progress; prefer manual bookmark-style progress | ❌ |
-| | More analytics charts | Note: limited value for a plugin focused on reading and excerpting | ❌ |
+| | Heavier analytics dashboards | Note: homepage stats already cover common reviews; no dashboard pile-on—build richer metrics with Dataview when needed | ❌ |
 | | PDF reading & excerpting | Note: the bookshelf can import PDFs; leave reading/excerpting to Obsidian or a dedicated plugin such as [Pdf++](https://github.com/RyotaUshio/obsidian-pdf-plus) | ❌ |
 
 > Legend: ✅ included · 🔒 requires Premium support · ❌ not planned

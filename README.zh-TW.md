@@ -8,7 +8,7 @@
 <a href="https://github.com/zhuzhige123/obsidian-weave-reader/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader"></a>
 </p>
 
-[简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md) · [官网](https://obsidian-weave.xyz/#pricing) · [使用教程](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
+[简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [繁體中文](./README.zh-TW.md)
 
 > **核心閱讀與摘錄免費可用。少數進階能力需付費解鎖以支持持續開發；外掛已迭代百餘版，可放心長期使用！謝謝支持！**
 

@@ -8,7 +8,7 @@
 <a href="https://github.com/zhuzhige123/obsidian-weave-reader/stargazers"><img alt="stars" src="https://img.shields.io/github/stars/zhuzhige123/obsidian-weave-reader"></a>
 </p>
 
-[简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Русский](./README.ru.md) · [Website](https://obsidian-weave.xyz/#pricing) · [Tutorials](https://obsidian-weave.xyz/tutorials.html#reader-welcome)
+[简体中文](./README.md#中文文档) · [English](./README.md#english-documentation) · [Русский](./README.ru.md)
 
 > **Основное чтение и выдержки бесплатны. Некоторые расширенные возможности требуют Premium для поддержки разработки; плагин прошёл более 100 релизов и готов к долгосрочному использованию. Спасибо за поддержку!**
 
