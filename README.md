@@ -17,7 +17,7 @@
 ![855c94b5-37e2-4427-93b5-b8a8ac45b3a5](https://github.com/user-attachments/assets/bf74db5e-6cc3-4a4d-b92d-e6ae24923e5f)
 
 
-<img width="2048" height="1152" alt="Obsidian阅读器插件宣传图设计方案 (7)" src="https://github.com/user-attachments/assets/c525e2b6-3104-4f6a-bbff-8ff9d2fda93c" />
+![Obsidian阅读器插件宣传图设计方案 (7)](https://github.com/user-attachments/assets/c525e2b6-3104-4f6a-bbff-8ff9d2fda93c)
 
 
 
@@ -26,14 +26,14 @@
 
 
 
-<img width="2048" height="1152" alt="Obsidian阅读器插件宣传图设计方案 (8)" src="https://github.com/user-attachments/assets/acb01ef7-c7be-4940-ab3d-4bd66dfdbe88" />
+![Obsidian阅读器插件宣传图设计方案 (8)](https://github.com/user-attachments/assets/acb01ef7-c7be-4940-ab3d-4bd66dfdbe88)
 
 
 
 ![image](https://github.com/user-attachments/assets/ee9e6de7-6a70-4d9d-9343-ae9c6bd5e8aa)
 
 
-<img width="2080" height="1120" alt="image" src="https://github.com/user-attachments/assets/23ac14bd-3357-4673-8e81-740cb0114b38" />
+![image](https://github.com/user-attachments/assets/23ac14bd-3357-4673-8e81-740cb0114b38)
 
 
 ![image](https://github.com/user-attachments/assets/70624f14-35c1-4447-8387-adc90df0f415)
